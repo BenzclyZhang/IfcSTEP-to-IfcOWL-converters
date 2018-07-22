@@ -4,9 +4,9 @@ The IfcSTEP-to-IfcOWL converter is based on the code in https://github.com/pipau
 They support all the current major IFC versions, including: IFC2X3_TC1, IFC2X3_FINAL, IFC4, IFC4_ADD1, IFC4_ADD2, and IFC4X1_RC3.
 Converters are compiled in the JAR folder, with command line interface.
 
-Command Line interface:
+## Command Line interface
 
-## IfcSTEP-to-IfcOWL converter
+### IfcSTEP-to-IfcOWL converter
 ```
 java -jar IfcSTEP2IfcOWL.jar <input.ifc> <output.xxx> [options]
  -b,--baseuri <uri>               set base uri for converted RDF instances
@@ -26,7 +26,7 @@ java -jar IfcSTEP2IfcOWL.jar <input.ifc> <output.xxx> [options]
                                     1_RC3","IFC4_ADD1","IFC4_ADD2")
 ```
 
-## IfcOWL-to-IfcSTEP
+### IfcOWL-to-IfcSTEP
 ```
 java -jar IfcOWL2IfcSTEP.jar <input.xxx> <output.ifc> [options]
  -l,--logfile                generate log file
