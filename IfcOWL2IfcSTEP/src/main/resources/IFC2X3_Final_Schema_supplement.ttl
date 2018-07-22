@@ -1,0 +1,4800 @@
+@base <http://ifcowl.openbimstandards.org/IFC2X3_Final> .
+@prefix : <http://ifcowl.openbimstandards.org/IFC2X3_Final> .
+@prefix ifc: <http://ifcowl.openbimstandards.org/IFC2X3_Final#> .
+@prefix supply: <http://www.tue.nl/ddss/ifcOWL_supplementary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix list: <https://w3id.org/list#> .
+@prefix expr: <https://w3id.org/express#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+ifc:IfcRectangularTrimmedSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToProduct
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextureCoordinateGenerator
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCooledBeamType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCableCarrierSegmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFeatureElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurveStyleFontAndScaling
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSectionReinforcementProperties
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSweptAreaSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricMotorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricHeaterType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCoilType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPile
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLibraryInformation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProjectOrder
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOrganization
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSectionedSpine
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEdgeFeature
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRepresentationMap
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOpticalMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcInventory
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSourceAmbient
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityWeight
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsWithEccentricity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyTableValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralConnectionCondition
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExternalReference
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowFitting
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProperty
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCraneRailAShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstructionResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionChamberElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAggregates
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElementProxy
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOneDirectionRepeatFactor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFireSuppressionTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDamperType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowTreatmentDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelInteractionRequirements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextureCoordinate
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowTerminal
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityArea
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOrderAction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSanitaryTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowMeterType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRoot
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedColour
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPipeFittingType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCompositeCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelDefinesByType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTypeProduct
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoad
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcIrregularTimeSeries
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMeasureWithUnit
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMechanicalMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCompositeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRoof
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFacetedBrep
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyleWithTextures
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcChamferEdgeFeature
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcObject
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTableRow
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotation
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcZShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstructionProductResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcServiceLife
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialProperties
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcShapeModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcActorRole
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGridAxis
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCsgSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLibraryReference
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTimeSeriesReferenceRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRectangleProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedCurveFont
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowControllerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeometricCurveSet
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricalCircuit
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBeamType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowMovingDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStyleModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDefinedSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFurnitureStandard
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDocumentInformationRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianTransformationOperator3DnonUniform
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExternallyDefinedHatchStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRibPlateProfileProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcColourRgb
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlanarExtent
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralSurfaceConnection
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDiscreteAccessory
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDiscreteAccessoryType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFurnishingElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementarySurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedTextFont
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFeatureElementSubtraction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementComponent
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSectionProperties
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlanarBox
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralPlanarActionVarying
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProduct
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricDistributionPoint
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPort
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesProfileProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcControl
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBooleanClippingResult
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelSequence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSweptSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesConstraint
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVertexLoop
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOpenShell
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurveStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMechanicalSteelMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCircleProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCostSchedule
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDoorLiningProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFuelProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPersonAndOrganization
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnects
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTendon
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDuctSilencerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpace
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFastenerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedDimensionSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReinforcingElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPostalAddress
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPresentationLayerAssignment
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPointOnCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralPlanarAction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCoveringType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialClassificationRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDraughtingCallout
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRightCircularCylinder
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSlab
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDiameterDimension
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialLayer
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcColourSpecification
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundaryNodeConditionWarping
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRectangularPyramid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSolidModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTubeBundleType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRailing
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcValveType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFaceBound
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoilerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVirtualElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTimeSeries
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelSpaceBoundary
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStair
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWaterProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFailureConnectionCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProjectionElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightFixtureType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeometricRepresentationItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertySetDefinition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTopologicalRepresentationItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSourceSpot
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBlock
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExternallyDefinedSurfaceStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOffsetCurve2D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPolygonalBoundedHalfSpace
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSymbolStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricalBaseProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyDefinition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLocalTime
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTrapeziumProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricGeneratorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcHumidifierType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWindowPanelProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMechanicalFastenerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSoundProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWasteTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurveStyleFontPattern
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianTransformationOperator
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProductDefinitionShape
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTerminatorSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianPoint
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEquipmentElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPhysicalComplexQuantity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsStructuralElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMetric
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTimeSeriesSchedule
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextLiteral
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBSplineCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOwnerHistory
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionCurveGeometry
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSimpleProperty
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElementComponent
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRevolvedAreaSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDoorStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExternallyDefinedSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceOfLinearExtrusion
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBooleanResult
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSubedge
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWall
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowSegment
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyReferenceValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStairFlightType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEdge
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralActivity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCovering
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAngularDimension
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProjectionCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWindowLiningProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedItem
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWorkPlan
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWorkSchedule
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcShapeRepresentation
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralPointReaction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionPort
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowStorageDevice
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralSurfaceMemberVarying
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcArbitraryClosedProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAxis2Placement2D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowInstrumentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPresentationLayerWithStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFacetedBrepWithVoids
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVector
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSubContractResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundaryCondition
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAirTerminalBoxType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPixelTexture
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTable
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundedSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcManifoldSolidBrep
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelNests
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcJunctionBoxType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLaborResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTimeSeriesValue
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSlippageConnectionCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRoundedEdgeFeature
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEllipse
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDraughtingPreDefinedTextFont
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBezierCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricalElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEnergyConversionDevice
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAxis2Placement3D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFastener
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionFlowElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcImageTexture
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpaceProgram
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGridPlacement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDocumentInformation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEnergyConversionDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcObjective
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPermit
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLampType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpaceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCostItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundaryNodeCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstructionMaterialResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConversionBasedUnit
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMechanicalConcreteMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialLayerSetUsage
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStairFlight
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTask
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElementPart
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpatialStructureElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStackTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextStyleWithBoxCharacteristics
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWindow
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDerivedProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCondenserType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCoolingTowerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelReferencedInSpatialStructure
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadSingleDisplacementDistortion
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstraintClassificationRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianTransformationOperator2DnonUniform
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionPointGeometry
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadSingleForceWarping
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFurnitureType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOffsetCurve3D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToProjectOrder
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPresentationStyleAssignment
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRightCircularCone
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementComponentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSourcePositional
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelOverridesProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadSingleDisplacement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcChillerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEnergyProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelContainedInSpatialStructure
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRepresentation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelFlowControlElements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSystemFurnitureElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelFillsElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToControl
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcHalfSpaceSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPolyline
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelCoversBldgElements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVertex
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstraintAggregationRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundedCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionControlElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelDefinesByProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedPointMarkerSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReferencesValueDocument
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralSteelProfileProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCenterLineProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFillAreaStyleTileSymbolWithStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationSurfaceOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProfileDef
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionPortGeometry
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCompressorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSensorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWallType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTransportElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceOfRevolution
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelServicesBuildings
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcActuatorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyEnumeratedValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWindowStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFurnishingElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSIUnit
+	supply:hasDeriveAttribute ifc:dimensions_IfcNamedUnit ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCompositeCurveSegment
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEnvironmentalImpactValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionSurfaceGeometry
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextStyleForDefinedFont
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoxedHalfSpace
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReinforcingBar
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSourceGoniometric
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelVoidsElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCalendarDate
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionFlowElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsStructuralMember
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReinforcementDefinitionProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertySingleValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcScheduleTimeControl
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcApplication
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcObjectPlacement
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPhysicalSimpleQuantity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelOccupiesSpaces
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDocumentElectronicFormat
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcArbitraryProfileDefWithVoids
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRectangleHollowProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEdgeCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianTransformationOperator3D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEvaporativeCoolerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReinforcingMesh
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSwitchingDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceCurveSweptAreaSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesMaterial
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFillAreaStyleHatching
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMappedItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlane
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExtendedMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMotorConnectionType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDerivedUnit
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterial
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProxy
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcActionRequest
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMechanicalFastener
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedTerminatorSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyBoundedValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstructionEquipmentResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOpeningElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDraughtingPreDefinedColour
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMember
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityCount
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlateType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralAnalysisModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLinearAction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityVolume
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPerson
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProductsOfCombustionProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpaceThermalLoadProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionPointEccentricity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricFlowStorageDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPolyLoop
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadGroup
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadPlanarForce
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTelecomAddress
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExtrudedAreaSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcComplexProperty
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSystem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcObjectDefinition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionPair
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingElementProxyType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstraint
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsWithRealizingElements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProjectOrderRecord
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProject
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsElements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLoop
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuredDimensionCallout
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCircleHollowProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityTime
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextureVertex
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSoundValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAlarmType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTypeObject
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassificationItem
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFaceOuterBound
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyleRendering
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcContextDependentUnit
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssigns
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAirTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFillAreaStyleTiles
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProcedure
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRoundedRectangleProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectedFaceSet
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurtainWallType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementQuantity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialList
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesClassification
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadStatic
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsTasks
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyleShading
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConic
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRegularTimeSeries
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOrganizationRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCrewResource
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLinearActionVarying
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesApproval
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadTemperature
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConditionCriterion
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeometricSet
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDerivedUnitElement
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcUShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToGroup
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConnectionGeometry
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTrimmedCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRadiusDimension
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcControllerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassificationItemRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightSourceDirectional
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClosedShell
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcApprovalActorRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcThermalMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassificationReference
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCircle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPresentationStyle
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeometricRepresentationSubContext
+	supply:hasDeriveAttribute ifc:worldCoordinateSystem_IfcGeometricRepresentationContext ;
+	supply:hasDeriveAttribute ifc:coordinateSpaceDimension_IfcGeometricRepresentationContext ;
+	supply:hasDeriveAttribute ifc:trueNorth_IfcGeometricRepresentationContext ;
+	supply:hasDeriveAttribute ifc:precision_IfcGeometricRepresentationContext ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProductRepresentation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFace
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMemberType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCableCarrierFittingType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFanType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcArbitraryOpenProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCartesianTransformationOperator2D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFooting
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPerformanceHistory
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassificationNotationFacet
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadSingleForce
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAppliedValueRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcExternallyDefinedTextFont
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProtectiveDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWorkControl
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlacement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDraughtingPreDefinedCurveFont
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionCurveDirectedCallout
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTransformerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElementAssembly
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGasTerminalType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralResultGroup
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcHeatExchangerType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralConnection
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTendonAnchor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralPointConnection
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPlate
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelationship
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralAction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcReinforcementBarProperties
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStyledItem
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcActor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralCurveMemberVarying
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRailingType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassificationNotation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPath
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTankType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVertexPoint
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralCurveMember
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundaryFaceCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpatialStructureElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertySet
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCableSegmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralMember
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralReaction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAirToAirHeatRecoveryType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcShellBasedSurfaceModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDuctSegmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcQuantityLength
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDoorPanelProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowFittingType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProcess
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:Ifc2DCompositeCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRamp
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcServiceLifeFactor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowController
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowSegmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTwoDirectionRepeatFactor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeneralMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcUnitaryEquipmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceTexture
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEllipseProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCostValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurveStyleFont
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionalExponents
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcConstraintRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMonetaryUnit
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionCurveTerminator
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcNamedUnit
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelSchedulesCostItems
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesLibrary
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcApprovalRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightDistributionData
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDocumentReference
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRepresentationItem
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeometricRepresentationContext
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLine
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowTreatmentDevice
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPointOnSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFaceBasedSurfaceModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAppliedValue
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralLoadLinearForce
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelaxation
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsPorts
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcShapeAspect
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextureMap
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPoint
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelProjectsElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTransportElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFeatureElementAddition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRampFlight
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcApprovalPropertyRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCraneRailFShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuildingStorey
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralCurveConnection
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPhysicalQuantity
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextLiteralWithExtent
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCsgPrimitive3D
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyleLighting
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelCoversSpaces
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDirection
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMove
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLocalPlacement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyConstraintRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSpaceHeaterType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSlabType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcUnitAssignment
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationCurveOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToProcess
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEdgeLoop
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssignsToActor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundaryEdgeCondition
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGeneralProfileProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVertexBasedTextureMap
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcZone
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsStructuralActivity
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcApproval
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowMovingDevice
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAsymmetricIShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRampFlightType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialLayerSet
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionChamberElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPumpType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationSymbolOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSphere
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcColumnType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLightIntensityDistribution
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDistributionControlElementType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSweptDiskSolid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEquipmentStandard
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationTextOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelDecomposes
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOccupant
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesAppliedValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurrencyRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVibrationIsolatorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBeam
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOrientedEdge
+	supply:hasDeriveAttribute ifc:edgeStart_IfcEdge ;
+	supply:hasDeriveAttribute ifc:edgeEnd_IfcEdge ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDoor
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDateAndTime
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurtainWall
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcClassification
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextStyleTextModel
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFaceSurface
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTopologyRepresentation
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcMaterialDefinitionRepresentation
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcParameterizedProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRepresentationContext
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBoundingBox
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPipeSegmentType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRationalBezierCurve
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationFillArea
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcColumn
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyDependencyRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralProfileProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAxis1Placement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAddress
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcEvaporatorType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociatesDocument
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcVirtualGridIntersection
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStyledRepresentation
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFilterType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyEnumeration
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDuctFittingType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralSurfaceMember
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFluidFlowProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGroup
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsPortToElement
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcIrregularTimeSeriesValue
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcHygroscopicMaterialProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFlowStorageDeviceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelDefines
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcWallStandardCase
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcStructuralPointAction
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPropertyListValue
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCurveBoundedPlane
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcOutletType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricApplianceType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcGrid
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDraughtingCalloutRelationship
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcLinearDimension
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcCoordinatedUniversalTimeOffset
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSurfaceStyleRefraction
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcElectricTimeControlType
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBuilding
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPermeableCoveringProperties
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcTextStyleFontModel
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcBlobTexture
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcIShapeProfileDef
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAsset
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelAssociates
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcAnnotationFillAreaOccurrence
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcPreDefinedSymbol
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcDimensionCalloutRelationship
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcProfileProperties
+	supply:isTopLevelIfcEntity "true"^^xsd:boolean ;
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcRelConnectsPathElements
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcSite
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:IfcFillAreaStyle
+	supply:isIfcEntity "true"^^xsd:boolean .
+ifc:visibleReflectanceFront_IfcOpticalMaterialProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:globalOrLocal_IfcAnnotationFillAreaOccurrence
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalIrTransmittance_IfcOpticalMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcRailingType
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcOrganization
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingConnectionType_IfcRelConnectsPathElements
+	supply:index "3"^^xsd:integer .
+ifc:predefinedType_IfcStairFlightType
+	supply:index "0"^^xsd:integer .
+ifc:placement_IfcPlanarBox
+	supply:index "0"^^xsd:integer .
+ifc:hasProperties_IfcPropertySet
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:currentValue_IfcAsset
+	supply:index "2"^^xsd:integer .
+ifc:description_IfcDocumentInformation
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:tensionFailureX_IfcFailureConnectionCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:creationDate_IfcWorkControl
+	supply:index "1"^^xsd:integer .
+ifc:sameSense_IfcGridAxis
+	supply:index "2"^^xsd:integer .
+ifc:definition_IfcDefinedSymbol
+	supply:index "0"^^xsd:integer .
+ifc:innerRadius_IfcSweptDiskSolid
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:projectedOrTrue_IfcStructuralPlanarAction
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcActuatorType
+	supply:index "0"^^xsd:integer .
+ifc:familyName_IfcPerson
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:wallThickness_IfcRectangleHollowProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:interiorOrExteriorSpace_IfcSpace
+	supply:index "0"^^xsd:integer .
+ifc:overallHeight_IfcDoor
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sequenceType_IfcRelSequence
+	supply:index "3"^^xsd:integer .
+ifc:confidentiality_IfcDocumentInformation
+	supply:index "15"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:precision_IfcGeometricRepresentationContext
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:profileOrientation_IfcRelAssociatesProfileProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:shapeAspectStyle_IfcWindowLiningProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:startProfile_IfcSectionProperties
+	supply:index "1"^^xsd:integer .
+ifc:approvalQualifier_IfcApproval
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:representation_IfcProduct
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:parentProfile_IfcDerivedProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:linearStiffnessByAreaZ_IfcBoundaryFaceCondition
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedDocuments_IfcDocumentInformationRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:predefinedType_IfcRailing
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:facsimileNumbers_IfcTelecomAddress
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:headDepth2_IfcCraneRailAShapeProfileDef
+	supply:index "4"^^xsd:integer .
+ifc:surfaceOnRelatedElement_IfcConnectionSurfaceGeometry
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:statusTime_IfcScheduleTimeControl
+	supply:index "14"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:basisSurface_IfcPointOnSurface
+	supply:index "0"^^xsd:integer .
+ifc:maxAggregateSize_IfcMechanicalConcreteMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:compressionFailureX_IfcFailureConnectionCondition
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:pointOnRelatingElement_IfcConnectionPointGeometry
+	supply:index "0"^^xsd:integer .
+ifc:u1_IfcRectangularTrimmedSurface
+	supply:index "1"^^xsd:integer .
+ifc:representationType_IfcRepresentation
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:distributionPointFunction_IfcElectricDistributionPoint
+	supply:index "0"^^xsd:integer .
+ifc:userDefinedProcedureType_IfcProcedure
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:youngModulus_IfcMechanicalMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:placementLocation_IfcGridPlacement
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcOrganization
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcStructuralCurveMember
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcContextDependentUnit
+	supply:index "0"^^xsd:integer .
+ifc:headDepth3_IfcCraneRailFShapeProfileDef
+	supply:index "4"^^xsd:integer .
+ifc:diffuseReflectionColour_IfcSurfaceStyleLighting
+	supply:index "1"^^xsd:integer .
+ifc:relatingStructure_IfcRelReferencedInSpatialStructure
+	supply:index "1"^^xsd:integer .
+ifc:userDefinedType_IfcDerivedUnit
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:characterSpacing_IfcTextStyleWithBoxCharacteristics
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:frameThickness_IfcWindowPanelProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:componentOfTotal_IfcAppliedValueRelationship
+	supply:index "0"^^xsd:integer .
+ifc:styleOfSymbol_IfcSymbolStyle
+	supply:index "0"^^xsd:integer .
+ifc:status_IfcTask
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:axisCurve_IfcGridAxis
+	supply:index "1"^^xsd:integer .
+ifc:timeSeries_IfcTimeSeriesSchedule
+	supply:index "2"^^xsd:integer .
+ifc:relatedDraughtingCallout_IfcDraughtingCalloutRelationship
+	supply:index "3"^^xsd:integer .
+ifc:fixedUntilDate_IfcAppliedValue
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:eccentricityInX_IfcConnectionPointEccentricity
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcPresentationStyle
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:literal_IfcTextLiteral
+	supply:index "0"^^xsd:integer .
+ifc:colourTemperature_IfcLightSourceGoniometric
+	supply:index "2"^^xsd:integer .
+ifc:minCurvatureRadius_IfcTendon
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:benchmarkValues_IfcObjective
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:endParam_IfcSweptDiskSolid
+	supply:index "4"^^xsd:integer .
+ifc:predefinedType_IfcFireSuppressionTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:eccentricityInY_IfcConnectionPointEccentricity
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingGroup_IfcRelAssignsToGroup
+	supply:index "0"^^xsd:integer .
+ifc:pointParameter_IfcPointOnCurve
+	supply:index "1"^^xsd:integer .
+ifc:edgeEnd_IfcEdge
+	supply:index "1"^^xsd:integer .
+ifc:diffuseColour_IfcSurfaceStyleRendering
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:documentOwner_IfcDocumentInformation
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sameSense_IfcCompositeCurveSegment
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcAirTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:cO2Content_IfcProductsOfCombustionProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:depreciatedValue_IfcAsset
+	supply:index "8"^^xsd:integer .
+ifc:reflectanceMethod_IfcSurfaceStyleRendering
+	supply:index "7"^^xsd:integer .
+ifc:depth_IfcUShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:isCritical_IfcScheduleTimeControl
+	supply:index "13"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerOn_IfcPresentationLayerWithStyle
+	supply:index "0"^^xsd:integer .
+ifc:subContractor_IfcSubContractResource
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingSpace_IfcRelSpaceBoundary
+	supply:index "0"^^xsd:integer .
+ifc:userDefinedTargetView_IfcGeometricRepresentationSubContext
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:elements_IfcGeometricSet
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:n20Content_IfcProductsOfCombustionProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:texturePoints_IfcVertexBasedTextureMap
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:sameSense_IfcFaceSurface
+	supply:index "1"^^xsd:integer .
+ifc:plasticShapeFactorZ_IfcStructuralSteelProfileProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:wetBulbTemperatureSingleValue_IfcFluidFlowProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:boilingPoint_IfcThermalMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:styles_IfcSurfaceStyle
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:sweptArea_IfcSweptAreaSolid
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcElectricHeaterType
+	supply:index "0"^^xsd:integer .
+ifc:rasterFormat_IfcBlobTexture
+	supply:index "0"^^xsd:integer .
+ifc:quantities_IfcElementQuantity
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:predefinedType_IfcFlowInstrumentType
+	supply:index "0"^^xsd:integer .
+ifc:fileExtension_IfcDocumentElectronicFormat
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:yLength_IfcRectangularPyramid
+	supply:index "1"^^xsd:integer .
+ifc:description_IfcConstraintRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:boxRotateAngle_IfcTextStyleWithBoxCharacteristics
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcExternalReference
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:secondaryPlaneAngle_IfcLightDistributionData
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:userDefinedPropertySource_IfcFluidFlowProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:longitudinalEndPosition_IfcSectionReinforcementProperties
+	supply:index "1"^^xsd:integer .
+ifc:conversionFactor_IfcConversionBasedUnit
+	supply:index "1"^^xsd:integer .
+ifc:higherHeatingValue_IfcFuelProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:status_IfcProjectOrder
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcStructuralLoadGroup
+	supply:index "0"^^xsd:integer .
+ifc:textTransform_IfcTextStyleTextModel
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:nominalDiameter_IfcTendon
+	supply:index "1"^^xsd:integer .
+ifc:status_IfcDocumentInformation
+	supply:index "16"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:title_IfcClassificationItem
+	supply:index "2"^^xsd:integer .
+ifc:electronicMailAddresses_IfcTelecomAddress
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:semiAxis1_IfcEllipseProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:currency_IfcMonetaryUnit
+	supply:index "0"^^xsd:integer .
+ifc:admixturesDescription_IfcMechanicalConcreteMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:edgeElement_IfcOrientedEdge
+	supply:index "0"^^xsd:integer .
+ifc:baseWidth4_IfcCraneRailAShapeProfileDef
+	supply:index "7"^^xsd:integer .
+ifc:relatingProcess_IfcRelSequence
+	supply:index "0"^^xsd:integer .
+ifc:ratedPowerInput_IfcElectricalBaseProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInY_IfcLShapeProfileDef
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:usageRatio_IfcConstructionMaterialResource
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedClassifications_IfcConstraintClassificationRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:operator_IfcBooleanResult
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcUnitaryEquipmentType
+	supply:index "0"^^xsd:integer .
+ifc:inputVoltage_IfcElectricalBaseProperties
+	supply:index "1"^^xsd:integer .
+ifc:hasQuantities_IfcPhysicalComplexQuantity
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:arithmeticOperator_IfcAppliedValueRelationship
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcSpaceHeaterType
+	supply:index "0"^^xsd:integer .
+ifc:nominalBarDiameter_IfcReinforcementBarProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:displacementZ_IfcStructuralLoadSingleDisplacement
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcAirTerminalBoxType
+	supply:index "0"^^xsd:integer .
+ifc:centreOfGravityInX_IfcLShapeProfileDef
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:locationAtRelatedElement_IfcConnectionPortGeometry
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:supportedLength_IfcRelConnectsStructuralMember
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lightDistributionCurve_IfcLightIntensityDistribution
+	supply:index "0"^^xsd:integer .
+ifc:roles_IfcPersonAndOrganization
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:resourceConsumption_IfcConstructionResource
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sectionDefinition_IfcSectionReinforcementProperties
+	supply:index "4"^^xsd:integer .
+ifc:offsetFromReferenceLine_IfcMaterialLayerSetUsage
+	supply:index "3"^^xsd:integer .
+ifc:planarForceX_IfcStructuralLoadPlanarForce
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unitsInContext_IfcProject
+	supply:index "3"^^xsd:integer .
+ifc:objectiveQualifier_IfcObjective
+	supply:index "2"^^xsd:integer .
+ifc:mappingOrigin_IfcRepresentationMap
+	supply:index "0"^^xsd:integer .
+ifc:unit_IfcPropertyEnumeration
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:axisTag_IfcGridAxis
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thickness_IfcStructuralSurfaceMember
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:revision_IfcDocumentInformation
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:refLatitude_IfcSite
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sizeable_IfcWindowStyle
+	supply:index "3"^^xsd:integer .
+ifc:impactType_IfcEnvironmentalImpactValue
+	supply:index "0"^^xsd:integer .
+ifc:displacementY_IfcStructuralLoadSingleDisplacement
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lengthExponent_IfcDimensionalExponents
+	supply:index "0"^^xsd:integer .
+ifc:weightValue_IfcQuantityWeight
+	supply:index "0"^^xsd:integer .
+ifc:width_IfcLShapeProfileDef
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:userDefinedControlType_IfcWorkControl
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fontWeight_IfcTextStyleFontModel
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textStyle_IfcTextStyle
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:definingUnit_IfcPropertyTableValue
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lowerVaporResistanceFactor_IfcHygroscopicMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:combustionTemperature_IfcFuelProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:reflectionColour_IfcSurfaceStyleRendering
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalExpansionCoefficient_IfcMechanicalMaterialProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcTable
+	supply:index "0"^^xsd:integer .
+ifc:relatedObjects_IfcRelAssigns
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:notationValue_IfcClassificationNotationFacet
+	supply:index "0"^^xsd:integer .
+ifc:vaporPermeability_IfcHygroscopicMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:maximumPowerInput_IfcElectricalBaseProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:colourAppearance_IfcLightSourceGoniometric
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:label_IfcDerivedProfileDef
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCompressorType
+	supply:index "0"^^xsd:integer .
+ifc:relatingElement_IfcRelConnectsStructuralElement
+	supply:index "0"^^xsd:integer .
+ifc:hourOffset_IfcCoordinatedUniversalTimeOffset
+	supply:index "0"^^xsd:integer .
+ifc:importanceRating_IfcRelInteractionRequirements
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:displacementX_IfcStructuralLoadSingleDisplacement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:xDim_IfcBoundingBox
+	supply:index "1"^^xsd:integer .
+ifc:axis_IfcAxis2Placement3D
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:item_IfcStyledItem
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:totalFloat_IfcScheduleTimeControl
+	supply:index "12"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:curveFont_IfcCurveStyleFontAndScaling
+	supply:index "1"^^xsd:integer .
+ifc:liningDepth_IfcWindowLiningProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:filletRadius_IfcLShapeProfileDef
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:baseDepth1_IfcCraneRailFShapeProfileDef
+	supply:index "6"^^xsd:integer .
+ifc:endProfile_IfcSectionProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:electricCurrentType_IfcElectricalBaseProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:longitudinalBarSpacing_IfcReinforcingMesh
+	supply:index "6"^^xsd:integer .
+ifc:name_IfcConstraintAggregationRelationship
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:zDim_IfcBoundingBox
+	supply:index "3"^^xsd:integer .
+ifc:relatedProcess_IfcRelSequence
+	supply:index "1"^^xsd:integer .
+ifc:tensionFailureZ_IfcFailureConnectionCondition
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:globalOrLocal_IfcStructuralActivity
+	supply:index "1"^^xsd:integer .
+ifc:timeStep_IfcRegularTimeSeries
+	supply:index "0"^^xsd:integer .
+ifc:targetView_IfcGeometricRepresentationSubContext
+	supply:index "2"^^xsd:integer .
+ifc:name_IfcApprovalRelationship
+	supply:index "3"^^xsd:integer .
+ifc:userDefinedGrade_IfcConstraint
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fontFamily_IfcTextStyleFontModel
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:wWWHomePageURL_IfcTelecomAddress
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:pnt_IfcLine
+	supply:index "0"^^xsd:integer .
+ifc:panelPosition_IfcWindowPanelProperties
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcDistributionChamberElementType
+	supply:index "0"^^xsd:integer .
+ifc:workability_IfcMechanicalConcreteMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unitType_IfcNamedUnit
+	supply:index "1"^^xsd:integer .
+ifc:trueNorth_IfcGeometricRepresentationContext
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:panelPosition_IfcPermeableCoveringProperties
+	supply:index "1"^^xsd:integer .
+ifc:elevationWithFlooring_IfcSpace
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:constraintGrade_IfcConstraint
+	supply:index "2"^^xsd:integer .
+ifc:mappingSource_IfcMappedItem
+	supply:index "0"^^xsd:integer .
+ifc:deltaT_Y_IfcStructuralLoadTemperature
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dispersionFactor_IfcSurfaceStyleRefraction
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:perimeter_IfcGeneralProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lowerHeatingValue_IfcFuelProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:webThickness_IfcUShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:molecularWeight_IfcGeneralMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:classifiedConstraint_IfcConstraintClassificationRelationship
+	supply:index "0"^^xsd:integer .
+ifc:enumerationReference_IfcPropertyEnumeratedValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:wAxes_IfcGrid
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:actionSource_IfcStructuralLoadGroup
+	supply:index "2"^^xsd:integer .
+ifc:transmissionColour_IfcSurfaceStyleLighting
+	supply:index "2"^^xsd:integer .
+ifc:rows_IfcTable
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:segments_IfcCompositeCurve
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:minuteOffset_IfcCoordinatedUniversalTimeOffset
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeSlope_IfcTShapeProfileDef
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lastUpdateDate_IfcInventory
+	supply:index "3"^^xsd:integer .
+ifc:identifier_IfcPresentationLayerAssignment
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:profileOfPort_IfcConnectionPortGeometry
+	supply:index "2"^^xsd:integer .
+ifc:theActor_IfcActor
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcPhysicalQuantity
+	supply:index "0"^^xsd:integer .
+ifc:pressureTimeSeries_IfcFluidFlowProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:side_IfcSurfaceStyle
+	supply:index "0"^^xsd:integer .
+ifc:criterionDateTime_IfcConditionCriterion
+	supply:index "1"^^xsd:integer .
+ifc:scale3_IfcCartesianTransformationOperator3DnonUniform
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:distance_IfcOffsetCurve3D
+	supply:index "1"^^xsd:integer .
+ifc:representations_IfcProductRepresentation
+	supply:index "2"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:updateDate_IfcCostSchedule
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:frameDepth_IfcWindowPanelProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:permitID_IfcPermit
+	supply:index "0"^^xsd:integer .
+ifc:forceZ_IfcStructuralLoadSingleForce
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:minuteComponent_IfcLocalTime
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:boxAlignment_IfcTextLiteralWithExtent
+	supply:index "1"^^xsd:integer .
+ifc:transition_IfcCompositeCurveSegment
+	supply:index "0"^^xsd:integer .
+ifc:referencedDocument_IfcReferencesValueDocument
+	supply:index "0"^^xsd:integer .
+ifc:compressionFailureZ_IfcFailureConnectionCondition
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcPropertyConstraintRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thresholdOffset_IfcDoorLiningProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:webSlope_IfcTShapeProfileDef
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedOrganizations_IfcOrganizationRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:numberOfRiser_IfcStairFlight
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lastModifiedDate_IfcOwnerHistory
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:shapeAspectStyle_IfcPermeableCoveringProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:documentReferences_IfcDocumentInformation
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:filletRadius_IfcTShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:overallWidth_IfcIShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:trim2_IfcTrimmedCurve
+	supply:index "2"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:lightDistributionDataSource_IfcLightSourceGoniometric
+	supply:index "5"^^xsd:integer .
+ifc:timeValue_IfcQuantityTime
+	supply:index "0"^^xsd:integer .
+ifc:hasResults_IfcStructuralAnalysisModel
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:yLength_IfcBlock
+	supply:index "1"^^xsd:integer .
+ifc:urlReference_IfcImageTexture
+	supply:index "0"^^xsd:integer .
+ifc:elementType_IfcElementType
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:pointParameterU_IfcPointOnSurface
+	supply:index "1"^^xsd:integer .
+ifc:workMethod_IfcTask
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCableSegmentType
+	supply:index "0"^^xsd:integer .
+ifc:innerBoundaries_IfcAnnotationFillArea
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:compositionType_IfcBuildingElementProxy
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:town_IfcPostalAddress
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingAppliedValue_IfcRelAssociatesAppliedValue
+	supply:index "0"^^xsd:integer .
+ifc:radius_IfcSweptDiskSolid
+	supply:index "1"^^xsd:integer .
+ifc:plasticShapeFactorY_IfcStructuralSteelProfileProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:steelGrade_IfcReinforcingElement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:controlElementId_IfcDistributionControlElement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:postalBox_IfcPostalAddress
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:patternList_IfcCurveStyleFont
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:values_IfcRegularTimeSeries
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:vertexGeometry_IfcVertexPoint
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcHumidifierType
+	supply:index "0"^^xsd:integer .
+ifc:axis1_IfcCartesianTransformationOperator
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcSIUnit
+	supply:index "1"^^xsd:integer .
+ifc:actionID_IfcOrderAction
+	supply:index "0"^^xsd:integer .
+ifc:sizeInX_IfcPlanarExtent
+	supply:index "0"^^xsd:integer .
+ifc:pressureSingleValue_IfcFluidFlowProperties
+	supply:index "14"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:depth_IfcLShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcActorRole
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:parentEdge_IfcSubedge
+	supply:index "0"^^xsd:integer .
+ifc:ultimateStress_IfcMechanicalSteelMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:methodOfMeasurement_IfcElementQuantity
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:firstOperand_IfcBooleanResult
+	supply:index "1"^^xsd:integer .
+ifc:profileName_IfcProfileProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCovering
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:loadedBy_IfcStructuralAnalysisModel
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:name_IfcConstraintRelationship
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:extent_IfcTextLiteralWithExtent
+	supply:index "0"^^xsd:integer .
+ifc:rotationalStiffnessByLengthZ_IfcBoundaryEdgeCondition
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcRoot
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dimensions_IfcNamedUnit
+	supply:index "0"^^xsd:integer .
+ifc:userDefinedCategory_IfcEnvironmentalImpactValue
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:actualStart_IfcScheduleTimeControl
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:currentValue_IfcInventory
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:invisibleSegmentLength_IfcCurveStyleFontPattern
+	supply:index "1"^^xsd:integer .
+ifc:userDefinedDataOrigin_IfcTimeSeries
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:distance_IfcOffsetCurve2D
+	supply:index "1"^^xsd:integer .
+ifc:material_IfcMaterialLayer
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:soundLevelSingleValue_IfcSoundValue
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessX_IfcBoundaryNodeCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fbsmFaces_IfcFaceBasedSurfaceModel
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:unit_IfcPropertyBoundedValue
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:longitudinalBarCrossSectionArea_IfcReinforcingMesh
+	supply:index "4"^^xsd:integer .
+ifc:jurisdiction_IfcInventory
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcLampType
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcEvaporativeCoolerType
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcPlateType
+	supply:index "0"^^xsd:integer .
+ifc:textDecoration_IfcTextStyleTextModel
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:scale2_IfcCartesianTransformationOperator3DnonUniform
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:validUntil_IfcDocumentInformation
+	supply:index "14"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInX_IfcCShapeProfileDef
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unitType_IfcDerivedUnit
+	supply:index "1"^^xsd:integer .
+ifc:planarForceY_IfcStructuralLoadPlanarForce
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:tensionForce_IfcTendon
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:additionalConditions_IfcRelConnectsStructuralMember
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:addresses_IfcPerson
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:addressLines_IfcPostalAddress
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:relatingFlowElement_IfcRelFlowControlElements
+	supply:index "1"^^xsd:integer .
+ifc:contextOfItems_IfcRepresentation
+	supply:index "0"^^xsd:integer .
+ifc:countValue_IfcQuantityCount
+	supply:index "0"^^xsd:integer .
+ifc:position_IfcLightSourcePositional
+	supply:index "0"^^xsd:integer .
+ifc:innerCurves_IfcArbitraryProfileDefWithVoids
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatingLibrary_IfcRelAssociatesLibrary
+	supply:index "0"^^xsd:integer .
+ifc:worldCoordinateSystem_IfcGeometricRepresentationContext
+	supply:index "2"^^xsd:integer .
+ifc:relatingElement_IfcRelConnectsStructuralActivity
+	supply:index "0"^^xsd:integer .
+ifc:position_IfcPolygonalBoundedHalfSpace
+	supply:index "0"^^xsd:integer .
+ifc:tag_IfcProxy
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:frameThickness_IfcPermeableCoveringProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:mappingTarget_IfcMappedItem
+	supply:index "1"^^xsd:integer .
+ifc:weightsData_IfcRationalBezierCurve
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:relatedSpaceProgram_IfcRelInteractionRequirements
+	supply:index "3"^^xsd:integer .
+ifc:description_IfcDraughtingCalloutRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:momentX_IfcStructuralLoadSingleForce
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:slippageZ_IfcSlippageConnectionCondition
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:role_IfcDimensionCurveTerminator
+	supply:index "0"^^xsd:integer .
+ifc:filletRadius_IfcUShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:crossSectionPositions_IfcSectionedSpine
+	supply:index "2"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:creationDate_IfcOwnerHistory
+	supply:index "7"^^xsd:integer .
+ifc:compressiveStrength_IfcMechanicalConcreteMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flowrateTimeSeries_IfcFluidFlowProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:maximumValue_IfcSpaceThermalLoadProperties
+	supply:index "4"^^xsd:integer .
+ifc:relatingPort_IfcRelConnectsPorts
+	supply:index "0"^^xsd:integer .
+ifc:flangeThickness_IfcUShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:slippageY_IfcSlippageConnectionCondition
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:connectionGeometry_IfcRelConnectsElements
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textCharacterAppearance_IfcTextStyle
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relaxations_IfcMechanicalSteelMaterialProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:width_IfcPixelTexture
+	supply:index "0"^^xsd:integer .
+ifc:components_IfcAppliedValueRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:yearComponent_IfcCalendarDate
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcSpaceType
+	supply:index "0"^^xsd:integer .
+ifc:applicableOccurrence_IfcTypeObject
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relationshipType_IfcDocumentInformationRelationship
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:angle_IfcRevolvedAreaSolid
+	supply:index "1"^^xsd:integer .
+ifc:appliedCondition_IfcStructuralConnection
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:varyingThicknessLocation_IfcStructuralSurfaceMemberVarying
+	supply:index "1"^^xsd:integer .
+ifc:shapeType_IfcRoof
+	supply:index "0"^^xsd:integer .
+ifc:colourComponents_IfcPixelTexture
+	supply:index "2"^^xsd:integer .
+ifc:blue_IfcColourRgb
+	supply:index "2"^^xsd:integer .
+ifc:hourComponent_IfcLocalTime
+	supply:index "0"^^xsd:integer .
+ifc:relatedItems_IfcClassificationItemRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:filletRadius_IfcIShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCondenserType
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcCableCarrierFittingType
+	supply:index "0"^^xsd:integer .
+ifc:actionType_IfcStructuralLoadGroup
+	supply:index "1"^^xsd:integer .
+ifc:approvalStatus_IfcApproval
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flowConditionSingleValue_IfcFluidFlowProperties
+	supply:index "12"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fillStyles_IfcFillAreaStyle
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:benchmark_IfcMetric
+	supply:index "0"^^xsd:integer .
+ifc:riserHeight_IfcStairFlight
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:longName_IfcProject
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sweptCurve_IfcSweptSurface
+	supply:index "0"^^xsd:integer .
+ifc:fontStyle_IfcTextStyleFontModel
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:scope_IfcDocumentInformation
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:totalFloat_IfcWorkControl
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flowConditionTimeSeries_IfcFluidFlowProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcSensorType
+	supply:index "0"^^xsd:integer .
+ifc:finishFloat_IfcScheduleTimeControl
+	supply:index "16"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:subsequentThickness_IfcStructuralSurfaceMemberVarying
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:rateSource_IfcCurrencyRelationship
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcBeamType
+	supply:index "0"^^xsd:integer .
+ifc:height_IfcRectangularPyramid
+	supply:index "2"^^xsd:integer .
+ifc:reflectanceColour_IfcSurfaceStyleLighting
+	supply:index "3"^^xsd:integer .
+ifc:relatedStructuralActivity_IfcRelConnectsStructuralActivity
+	supply:index "1"^^xsd:integer .
+ifc:dependantProperty_IfcPropertyDependencyRelationship
+	supply:index "1"^^xsd:integer .
+ifc:description_IfcOrganizationRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:category_IfcEnvironmentalImpactValue
+	supply:index "1"^^xsd:integer .
+ifc:jobDescription_IfcSubContractResource
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:mappedRepresentation_IfcRepresentationMap
+	supply:index "1"^^xsd:integer .
+ifc:name_IfcConstraint
+	supply:index "0"^^xsd:integer .
+ifc:classifiedMaterial_IfcMaterialClassificationRelationship
+	supply:index "1"^^xsd:integer .
+ifc:standardRequiredArea_IfcSpaceProgram
+	supply:index "4"^^xsd:integer .
+ifc:areaValue_IfcQuantityArea
+	supply:index "0"^^xsd:integer .
+ifc:meshWidth_IfcReinforcingMesh
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:elevationOfTerrain_IfcBuilding
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:moveFrom_IfcMove
+	supply:index "0"^^xsd:integer .
+ifc:physicalOrVirtualBoundary_IfcRelSpaceBoundary
+	supply:index "3"^^xsd:integer .
+ifc:slippageX_IfcSlippageConnectionCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:initialStress_IfcRelaxation
+	supply:index "1"^^xsd:integer .
+ifc:relatedElement_IfcRelConnectsElements
+	supply:index "2"^^xsd:integer .
+ifc:changeAction_IfcOwnerHistory
+	supply:index "3"^^xsd:integer .
+ifc:coefficient_IfcStructuralLoadGroup
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:endParam_IfcSurfaceCurveSweptAreaSolid
+	supply:index "2"^^xsd:integer .
+ifc:physicalWeight_IfcGeneralProfileProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:v2_IfcRectangularTrimmedSurface
+	supply:index "4"^^xsd:integer .
+ifc:shearDeformationAreaY_IfcStructuralProfileProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:styles_IfcPresentationStyleAssignment
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:target_IfcDefinedSymbol
+	supply:index "1"^^xsd:integer .
+ifc:steelGrade_IfcReinforcementBarProperties
+	supply:index "1"^^xsd:integer .
+ifc:name_IfcPreDefinedItem
+	supply:index "0"^^xsd:integer .
+ifc:dayComponent_IfcCalendarDate
+	supply:index "0"^^xsd:integer .
+ifc:diffuseTransmissionColour_IfcSurfaceStyleRendering
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:approval_IfcApprovalActorRelationship
+	supply:index "1"^^xsd:integer .
+ifc:basisCurve_IfcPointOnCurve
+	supply:index "0"^^xsd:integer .
+ifc:carbonContent_IfcFuelProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessByAreaX_IfcBoundaryFaceCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerSetName_IfcMaterialLayerSet
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcTransformerType
+	supply:index "0"^^xsd:integer .
+ifc:shapeAspectStyle_IfcDoorLiningProperties
+	supply:index "10"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:internalFilletRadius_IfcCShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:upperValue_IfcServiceLifeFactor
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:locationOfInteraction_IfcRelInteractionRequirements
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcElementAssembly
+	supply:index "1"^^xsd:integer .
+ifc:orientation_IfcVector
+	supply:index "0"^^xsd:integer .
+ifc:purpose_IfcStructuralLoadGroup
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearMomentX_IfcStructuralLoadLinearForce
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:ribSpacing_IfcRibPlateProfileProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeThickness_IfcTShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:name_IfcColourSpecification
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:parameterTakesPrecedence_IfcDoorStyle
+	supply:index "2"^^xsd:integer .
+ifc:materialLayers_IfcMaterialLayerSet
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:creationTime_IfcConstraint
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:width_IfcChamferEdgeFeature
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transparency_IfcSurfaceStyleRendering
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:assemblyPlace_IfcFurnitureType
+	supply:index "0"^^xsd:integer .
+ifc:rotationalStiffnessByLengthY_IfcBoundaryEdgeCondition
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedObjects_IfcRelDefines
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:crossSections_IfcSectionedSpine
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:isVentilated_IfcMaterialLayer
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:userDefinedQualifier_IfcObjective
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:userDefinedFunction_IfcElectricDistributionPoint
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcAppliedValueRelationship
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:identifier_IfcApproval
+	supply:index "6"^^xsd:integer .
+ifc:intersectingAxes_IfcVirtualGridIntersection
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:depth_IfcExtrudedAreaSolid
+	supply:index "1"^^xsd:integer .
+ifc:representationMaps_IfcTypeProduct
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:version_IfcApplication
+	supply:index "1"^^xsd:integer .
+ifc:sameSense_IfcEdgeCurve
+	supply:index "1"^^xsd:integer .
+ifc:state_IfcOwnerHistory
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:cfsFaces_IfcConnectedFaceSet
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:fullLoadCurrent_IfcElectricalBaseProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:alkalinityConcentration_IfcWaterProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:applicationDeveloper_IfcApplication
+	supply:index "0"^^xsd:integer .
+ifc:roles_IfcPerson
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:creators_IfcWorkControl
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatedFeatureElement_IfcRelProjectsElement
+	supply:index "1"^^xsd:integer .
+ifc:acidityConcentration_IfcWaterProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flowDirection_IfcDistributionPort
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcSlabType
+	supply:index "0"^^xsd:integer .
+ifc:shapeAspectStyle_IfcWindowPanelProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fontSize_IfcTextStyleFontModel
+	supply:index "4"^^xsd:integer .
+ifc:relatingMaterial_IfcRelAssociatesMaterial
+	supply:index "0"^^xsd:integer .
+ifc:distortion_IfcStructuralLoadSingleDisplacementDistortion
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:axisPosition_IfcSurfaceOfRevolution
+	supply:index "0"^^xsd:integer .
+ifc:wallThickness_IfcCShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:name_IfcBoundaryCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:responsiblePerson_IfcAsset
+	supply:index "6"^^xsd:integer .
+ifc:sbsmBoundary_IfcShellBasedSurfaceModel
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:coordinateSpaceDimension_IfcGeometricRepresentationContext
+	supply:index "0"^^xsd:integer .
+ifc:position_IfcConic
+	supply:index "0"^^xsd:integer .
+ifc:momentOfInertiaYZ_IfcStructuralProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:outerBoundary_IfcCurveBoundedPlane
+	supply:index "1"^^xsd:integer .
+ifc:topFlangeThickness_IfcAsymmetricIShapeProfileDef
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relaxationValue_IfcRelaxation
+	supply:index "0"^^xsd:integer .
+ifc:height_IfcRightCircularCylinder
+	supply:index "0"^^xsd:integer .
+ifc:causedBy_IfcStructuralAction
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:freeFloat_IfcScheduleTimeControl
+	supply:index "11"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:rotationalStiffnessY_IfcBoundaryNodeCondition
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedCoverings_IfcRelCoversBldgElements
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:ribHeight_IfcRibPlateProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:edgeList_IfcEdgeLoop
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:girth_IfcCShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:coordinates_IfcCartesianPoint
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:representationIdentifier_IfcRepresentation
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedObjectsType_IfcRelAssigns
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcDamperType
+	supply:index "0"^^xsd:integer .
+ifc:status_IfcCostSchedule
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:timeForTask_IfcRelAssignsTasks
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:location_IfcPlacement
+	supply:index "0"^^xsd:integer .
+ifc:userDefinedEnergySequence_IfcEnergyProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:xLength_IfcRectangularPyramid
+	supply:index "0"^^xsd:integer .
+ifc:voids_IfcFacetedBrepWithVoids
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatingElement_IfcRelConnectsElements
+	supply:index "1"^^xsd:integer .
+ifc:treeRootExpression_IfcCsgSolid
+	supply:index "0"^^xsd:integer .
+ifc:timeLag_IfcRelSequence
+	supply:index "2"^^xsd:integer .
+ifc:incorporationDate_IfcAsset
+	supply:index "7"^^xsd:integer .
+ifc:propertySource_IfcSpaceThermalLoadProperties
+	supply:index "2"^^xsd:integer .
+ifc:position_IfcParameterizedProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:expression_IfcPropertyDependencyRelationship
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalLoadSource_IfcSpaceThermalLoadProperties
+	supply:index "1"^^xsd:integer .
+ifc:topFlangeFilletRadius_IfcAsymmetricIShapeProfileDef
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:orientation_IfcLightSourceSpot
+	supply:index "0"^^xsd:integer .
+ifc:timeStamp_IfcIrregularTimeSeriesValue
+	supply:index "0"^^xsd:integer .
+ifc:directionSense_IfcMaterialLayerSetUsage
+	supply:index "2"^^xsd:integer .
+ifc:listValues_IfcPropertyListValue
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:tiles_IfcFillAreaStyleTiles
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:casingThickness_IfcDoorLiningProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:topFlangeWidth_IfcAsymmetricIShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:usense_IfcRectangularTrimmedSurface
+	supply:index "5"^^xsd:integer .
+ifc:description_IfcTimeSeries
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:beamWidthAngle_IfcLightSourceSpot
+	supply:index "3"^^xsd:integer .
+ifc:relatedElements_IfcRelReferencedInSpatialStructure
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:centreOfGravityInY_IfcCraneRailAShapeProfileDef
+	supply:index "11"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeWidth_IfcTShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:relatingClassification_IfcRelAssociatesClassification
+	supply:index "0"^^xsd:integer .
+ifc:barSurface_IfcReinforcementBarProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCoolingTowerType
+	supply:index "0"^^xsd:integer .
+ifc:theoryType_IfcStructuralResultGroup
+	supply:index "0"^^xsd:integer .
+ifc:liningOffset_IfcDoorLiningProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:actualDuration_IfcScheduleTimeControl
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:soundValues_IfcSoundProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:shearAreaY_IfcStructuralSteelProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:extendedProperties_IfcExtendedMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:textIndent_IfcTextStyleTextModel
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:scheduleStart_IfcScheduleTimeControl
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:usage_IfcPhysicalComplexQuantity
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:overallHeight_IfcCraneRailFShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:values_IfcIrregularTimeSeries
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:pointOfReferenceHatchLine_IfcFillAreaStyleHatching
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcMaterial
+	supply:index "0"^^xsd:integer .
+ifc:boxSlantAngle_IfcTextStyleWithBoxCharacteristics
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:directionRatios_IfcDirection
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:startParam_IfcSurfaceCurveSweptAreaSolid
+	supply:index "1"^^xsd:integer .
+ifc:textureVertices_IfcVertexBasedTextureMap
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:wordSpacing_IfcTextStyleTextModel
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:pagerNumber_IfcTelecomAddress
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:panelWidth_IfcDoorPanelProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:itemReference_IfcExternalReference
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:procedureType_IfcProcedure
+	supply:index "1"^^xsd:integer .
+ifc:addresses_IfcOrganization
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:relatingDocument_IfcRelAssociatesDocument
+	supply:index "0"^^xsd:integer .
+ifc:listValues_IfcTimeSeriesValue
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:editors_IfcDocumentInformation
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:overallWidth_IfcDoor
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:rowCells_IfcTableRow
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:localOrigin_IfcCartesianTransformationOperator
+	supply:index "2"^^xsd:integer .
+ifc:lastModifyingUser_IfcOwnerHistory
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:spaceProgramIdentifier_IfcSpaceProgram
+	supply:index "0"^^xsd:integer .
+ifc:trim1_IfcTrimmedCurve
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:condition_IfcCostValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:postalCode_IfcPostalAddress
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalLoadTimeSeriesValues_IfcSpaceThermalLoadProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcSwitchingDeviceType
+	supply:index "0"^^xsd:integer .
+ifc:bounds_IfcFace
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:position_IfcSweptAreaSolid
+	supply:index "1"^^xsd:integer .
+ifc:uAxes_IfcGrid
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:repeatT_IfcSurfaceTexture
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcBuildingElementProxyType
+	supply:index "0"^^xsd:integer .
+ifc:varyingAppliedLoadLocation_IfcStructuralPlanarActionVarying
+	supply:index "0"^^xsd:integer .
+ifc:tensionFailureY_IfcFailureConnectionCondition
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:barLength_IfcReinforcingBar
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:valueSource_IfcMetric
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:purpose_IfcAddress
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:forLayerSet_IfcMaterialLayerSetUsage
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcPhysicalQuantity
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:applicableValueRatio_IfcSpaceThermalLoadProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unit_IfcTimeSeries
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedConnectionType_IfcRelConnectsPathElements
+	supply:index "2"^^xsd:integer .
+ifc:curve_IfcArbitraryOpenProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:liningDepth_IfcDoorLiningProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:headDepth3_IfcCraneRailAShapeProfileDef
+	supply:index "5"^^xsd:integer .
+ifc:constraintSource_IfcConstraint
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcProjectOrderRecord
+	supply:index "1"^^xsd:integer .
+ifc:longitudinalStartPosition_IfcSectionReinforcementProperties
+	supply:index "0"^^xsd:integer .
+ifc:linearForceY_IfcStructuralLoadLinearForce
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:waterImpermeability_IfcMechanicalConcreteMaterialProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:validFrom_IfcDocumentInformation
+	supply:index "13"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:eccentricityInZ_IfcConnectionPointEccentricity
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:objectPlacement_IfcProduct
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcStructuralLoad
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:edgeRadius_IfcZShapeProfileDef
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:prefix_IfcSIUnit
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcRoot
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:shapeType_IfcStair
+	supply:index "0"^^xsd:integer .
+ifc:baseDepth2_IfcCraneRailAShapeProfileDef
+	supply:index "9"^^xsd:integer .
+ifc:subsequentAppliedLoads_IfcStructuralPlanarActionVarying
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:warpingMoment_IfcStructuralLoadSingleForceWarping
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcExtendedMaterialProperties
+	supply:index "2"^^xsd:integer .
+ifc:actingRole_IfcRelAssignsToActor
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:fluid_IfcFluidFlowProperties
+	supply:index "4"^^xsd:integer .
+ifc:repeatFactor_IfcOneDirectionRepeatFactor
+	supply:index "0"^^xsd:integer .
+ifc:volumeValue_IfcQuantityVolume
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcFilterType
+	supply:index "0"^^xsd:integer .
+ifc:liningThickness_IfcWindowLiningProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:backgroundColour_IfcTextStyleForDefinedFont
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:meshLength_IfcReinforcingMesh
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcElectricFlowStorageDeviceType
+	supply:index "0"^^xsd:integer .
+ifc:startTime_IfcTimeSeries
+	supply:index "2"^^xsd:integer .
+ifc:relatedCoverings_IfcRelCoversSpaces
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:upperVaporResistanceFactor_IfcHygroscopicMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcColumnType
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcValveType
+	supply:index "0"^^xsd:integer .
+ifc:nominalValue_IfcPropertySingleValue
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:notation_IfcClassificationItem
+	supply:index "0"^^xsd:integer .
+ifc:edgeList_IfcPath
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:semiAxis2_IfcEllipse
+	supply:index "1"^^xsd:integer .
+ifc:nominalLength_IfcMechanicalFastener
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:specularColour_IfcSurfaceStyleRendering
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textAlign_IfcTextStyleTextModel
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingProfileProperties_IfcRelAssociatesProfileProperties
+	supply:index "0"^^xsd:integer .
+ifc:relatedControlElements_IfcRelFlowControlElements
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:edgeRadius_IfcLShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:momentZ_IfcStructuralLoadSingleForce
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:internalOrExternalBoundary_IfcRelSpaceBoundary
+	supply:index "4"^^xsd:integer .
+ifc:name_IfcClassification
+	supply:index "3"^^xsd:integer .
+ifc:role_IfcActorRole
+	supply:index "0"^^xsd:integer .
+ifc:preStress_IfcTendon
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:proportionalStress_IfcMechanicalSteelMaterialProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:startOfNextHatchLine_IfcFillAreaStyleHatching
+	supply:index "1"^^xsd:integer .
+ifc:senseAgreement_IfcTrimmedCurve
+	supply:index "3"^^xsd:integer .
+ifc:panelDepth_IfcDoorPanelProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:user_IfcAsset
+	supply:index "5"^^xsd:integer .
+ifc:basisCurve_IfcOffsetCurve2D
+	supply:index "0"^^xsd:integer .
+ifc:thickness_IfcLShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:flowrateSingleValue_IfcFluidFlowProperties
+	supply:index "11"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcPumpType
+	supply:index "0"^^xsd:integer .
+ifc:dailyInteraction_IfcRelInteractionRequirements
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:amountOfSubstanceExponent_IfcDimensionalExponents
+	supply:index "5"^^xsd:integer .
+ifc:elevationOfRefHeight_IfcBuilding
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:serviceLifeType_IfcServiceLife
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcCoveringType
+	supply:index "0"^^xsd:integer .
+ifc:textureTransform_IfcSurfaceTexture
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:ownerHistory_IfcRoot
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcProjectOrder
+	supply:index "1"^^xsd:integer .
+ifc:name_IfcAppliedValue
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:contents_IfcDraughtingCallout
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:dissolvedSolidsContent_IfcWaterProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessZ_IfcBoundaryNodeCondition
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unit_IfcDerivedUnitElement
+	supply:index "0"^^xsd:integer .
+ifc:hardeningModule_IfcMechanicalSteelMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:repeatS_IfcSurfaceTexture
+	supply:index "0"^^xsd:integer .
+ifc:barCount_IfcReinforcementBarProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:basisCurve_IfcOffsetCurve3D
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcStackTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:relatingOpeningElement_IfcRelFillsElement
+	supply:index "0"^^xsd:integer .
+ifc:relatingPropertyDefinition_IfcRelDefinesByProperties
+	supply:index "0"^^xsd:integer .
+ifc:linearStiffnessByLengthY_IfcBoundaryEdgeCondition
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:inventoryType_IfcInventory
+	supply:index "0"^^xsd:integer .
+ifc:radius_IfcCraneRailAShapeProfileDef
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:firstTransomOffset_IfcWindowLiningProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcAirToAirHeatRecoveryType
+	supply:index "0"^^xsd:integer .
+ifc:position_IfcSweptSurface
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcAlarmType
+	supply:index "0"^^xsd:integer .
+ifc:xLength_IfcBlock
+	supply:index "0"^^xsd:integer .
+ifc:relatingApproval_IfcRelAssociatesApproval
+	supply:index "0"^^xsd:integer .
+ifc:baseDepth2_IfcCraneRailFShapeProfileDef
+	supply:index "7"^^xsd:integer .
+ifc:predefinedType_IfcCableCarrierSegmentType
+	supply:index "0"^^xsd:integer .
+ifc:appliedLoad_IfcStructuralActivity
+	supply:index "0"^^xsd:integer .
+ifc:telephoneNumbers_IfcTelecomAddress
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:outerCurve_IfcArbitraryClosedProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:mimeContentType_IfcDocumentElectronicFormat
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:minimumSectionModulusZ_IfcStructuralProfileProperties
+	supply:index "12"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sizeInY_IfcPlanarExtent
+	supply:index "1"^^xsd:integer .
+ifc:targetScale_IfcGeometricRepresentationSubContext
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:orientationOf2DPlane_IfcStructuralAnalysisModel
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:rotationalStiffnessByLengthX_IfcBoundaryEdgeCondition
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textureType_IfcSurfaceTexture
+	supply:index "2"^^xsd:integer .
+ifc:minimumSectionModulusY_IfcStructuralProfileProperties
+	supply:index "10"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:frameDepth_IfcPermeableCoveringProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:prefixTitles_IfcPerson
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:maxRequiredArea_IfcSpaceProgram
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:moistureDiffusivity_IfcHygroscopicMaterialProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcFooting
+	supply:index "0"^^xsd:integer .
+ifc:overallWidth_IfcWindow
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:secondRepeatFactor_IfcTwoDirectionRepeatFactor
+	supply:index "0"^^xsd:integer .
+ifc:red_IfcColourRgb
+	supply:index "0"^^xsd:integer .
+ifc:shapeAspectStyle_IfcDoorPanelProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textures_IfcSurfaceStyleWithTextures
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:name_IfcPropertyEnumeration
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcPresentationLayerAssignment
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingDraughtingCallout_IfcDraughtingCalloutRelationship
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcEvaporatorType
+	supply:index "0"^^xsd:integer .
+ifc:curveOnRelatedElement_IfcConnectionCurveGeometry
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:basisCurve_IfcTrimmedCurve
+	supply:index "0"^^xsd:integer .
+ifc:luminousIntensityExponent_IfcDimensionalExponents
+	supply:index "6"^^xsd:integer .
+ifc:relatedConstraints_IfcConstraintAggregationRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:procedureID_IfcProcedure
+	supply:index "0"^^xsd:integer .
+ifc:costType_IfcCostValue
+	supply:index "0"^^xsd:integer .
+ifc:submittedOn_IfcCostSchedule
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:edgeStart_IfcEdge
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcPipeFittingType
+	supply:index "0"^^xsd:integer .
+ifc:relatedOpeningElement_IfcRelVoidsElement
+	supply:index "1"^^xsd:integer .
+ifc:predefinedType_IfcStructuralSurfaceMember
+	supply:index "0"^^xsd:integer .
+ifc:selfIntersect_IfcOffsetCurve2D
+	supply:index "2"^^xsd:integer .
+ifc:electronicFormat_IfcDocumentInformation
+	supply:index "12"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lengthValue_IfcQuantityLength
+	supply:index "0"^^xsd:integer .
+ifc:timeSeriesDataType_IfcTimeSeries
+	supply:index "4"^^xsd:integer .
+ifc:material_IfcMaterialProperties
+	supply:index "0"^^xsd:integer .
+ifc:firstMullionOffset_IfcWindowLiningProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:yDim_IfcRectangleProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:specificHeatCapacity_IfcProductsOfCombustionProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcConstraintAggregationRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:actor_IfcApprovalActorRelationship
+	supply:index "0"^^xsd:integer .
+ifc:vsense_IfcRectangularTrimmedSurface
+	supply:index "6"^^xsd:integer .
+ifc:globalId_IfcRoot
+	supply:index "0"^^xsd:integer .
+ifc:axis2_IfcCartesianTransformationOperator
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:constantAttenuation_IfcLightSourcePositional
+	supply:index "2"^^xsd:integer .
+ifc:thickness_IfcCenterLineProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcApproval
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:zone_IfcLocalTime
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:electricCurrentExponent_IfcDimensionalExponents
+	supply:index "3"^^xsd:integer .
+ifc:predefinedType_IfcWasteTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:elements_IfcDerivedUnit
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatingElement_IfcRelProjectsElement
+	supply:index "0"^^xsd:integer .
+ifc:timeSeriesReferences_IfcTimeSeriesReferenceRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:layerSetDirection_IfcMaterialLayerSetUsage
+	supply:index "1"^^xsd:integer .
+ifc:profileType_IfcProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:maximumPlateThickness_IfcGeneralProfileProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:varyingAppliedLoadLocation_IfcStructuralLinearActionVarying
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcFanType
+	supply:index "0"^^xsd:integer .
+ifc:isMilestone_IfcTask
+	supply:index "3"^^xsd:integer .
+ifc:moveTo_IfcMove
+	supply:index "1"^^xsd:integer .
+ifc:rateDateTime_IfcCurrencyRelationship
+	supply:index "3"^^xsd:integer .
+ifc:luminousIntensity_IfcLightDistributionData
+	supply:index "2"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:linearMomentZ_IfcStructuralLoadLinearForce
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcOccupant
+	supply:index "0"^^xsd:integer .
+ifc:mimeSubtype_IfcDocumentElectronicFormat
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcDuctSegmentType
+	supply:index "0"^^xsd:integer .
+ifc:originalValue_IfcAsset
+	supply:index "1"^^xsd:integer .
+ifc:barRole_IfcReinforcingBar
+	supply:index "3"^^xsd:integer .
+ifc:relatedStructuralMember_IfcRelConnectsStructuralElement
+	supply:index "1"^^xsd:integer .
+ifc:relatingPriorities_IfcRelConnectsPathElements
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:timeComponent_IfcDateAndTime
+	supply:index "1"^^xsd:integer .
+ifc:curveFontScaling_IfcCurveStyleFontAndScaling
+	supply:index "2"^^xsd:integer .
+ifc:skillSet_IfcLaborResource
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerStyles_IfcPresentationLayerWithStyle
+	supply:index "3"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:cOContent_IfcProductsOfCombustionProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unit_IfcPropertyListValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalConductivity_IfcThermalMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:isPotable_IfcWaterProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:approval_IfcApprovalPropertyRelationship
+	supply:index "1"^^xsd:integer .
+ifc:requestedLocation_IfcSpaceProgram
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcRightCircularCylinder
+	supply:index "1"^^xsd:integer .
+ifc:zLength_IfcBlock
+	supply:index "2"^^xsd:integer .
+ifc:responsiblePersons_IfcInventory
+	supply:index "2"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatingBuildingElement_IfcRelVoidsElement
+	supply:index "0"^^xsd:integer .
+ifc:expression_IfcPropertyTableValue
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedProperties_IfcPropertyConstraintRelationship
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:userDefinedPropertySource_IfcSpaceThermalLoadProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:edition_IfcClassification
+	supply:index "1"^^xsd:integer .
+ifc:operationType_IfcPermeableCoveringProperties
+	supply:index "0"^^xsd:integer .
+ifc:logicalAggregator_IfcConstraintAggregationRelationship
+	supply:index "4"^^xsd:integer .
+ifc:inputFrequency_IfcElectricalBaseProperties
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcProtectiveDeviceType
+	supply:index "0"^^xsd:integer .
+ifc:xDim_IfcRectangleProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:directrix_IfcSweptDiskSolid
+	supply:index "0"^^xsd:integer .
+ifc:locationAtRelatingElement_IfcConnectionPortGeometry
+	supply:index "0"^^xsd:integer .
+ifc:approvalLevel_IfcApproval
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcRoundedEdgeFeature
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcGasTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:suppliers_IfcConstructionMaterialResource
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:massDensity_IfcGeneralMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingObject_IfcRelDecomposes
+	supply:index "0"^^xsd:integer .
+ifc:compositionType_IfcSpatialStructureElement
+	supply:index "1"^^xsd:integer .
+ifc:linearForceX_IfcStructuralLoadLinearForce
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcReferencesValueDocument
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcLibraryInformation
+	supply:index "0"^^xsd:integer .
+ifc:quantityInProcess_IfcRelAssignsToProcess
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalIrEmissivityBack_IfcOpticalMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:roles_IfcOrganization
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:webThickness_IfcCraneRailAShapeProfileDef
+	supply:index "6"^^xsd:integer .
+ifc:lastModifyingApplication_IfcOwnerHistory
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:completion_IfcScheduleTimeControl
+	supply:index "17"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:position_IfcLightSourceGoniometric
+	supply:index "0"^^xsd:integer .
+ifc:flangeWidth_IfcUShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:unitComponent_IfcMeasureWithUnit
+	supply:index "1"^^xsd:integer .
+ifc:shearAreaZ_IfcStructuralSteelProfileProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:legSlope_IfcLShapeProfileDef
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:tilingPattern_IfcFillAreaStyleTiles
+	supply:index "0"^^xsd:integer .
+ifc:relatedElement_IfcRelConnectsPortToElement
+	supply:index "1"^^xsd:integer .
+ifc:compressionFailureY_IfcFailureConnectionCondition
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:minimumValue_IfcSpaceThermalLoadProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:secondMullionOffset_IfcWindowLiningProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:serviceLifeDuration_IfcServiceLife
+	supply:index "1"^^xsd:integer .
+ifc:bottomXDim_IfcTrapeziumProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:minimumCircuitCurrent_IfcElectricalBaseProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedBuildings_IfcRelServicesBuildings
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:finishTime_IfcWorkControl
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:axis_IfcRevolvedAreaSolid
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcJunctionBoxType
+	supply:index "0"^^xsd:integer .
+ifc:path_IfcTextLiteral
+	supply:index "2"^^xsd:integer .
+ifc:nominalDiameter_IfcReinforcingBar
+	supply:index "0"^^xsd:integer .
+ifc:fillStyleTarget_IfcAnnotationFillAreaOccurrence
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:connectionConstraint_IfcRelConnectsWithEccentricity
+	supply:index "0"^^xsd:integer .
+ifc:crossSectionArea_IfcGeneralProfileProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:timeSeriesScheduleType_IfcTimeSeriesSchedule
+	supply:index "1"^^xsd:integer .
+ifc:objectType_IfcObject
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:minRequiredArea_IfcSpaceProgram
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:filletRadius_IfcZShapeProfileDef
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:overallDepth_IfcIShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:webThickness_IfcTShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:relatingActor_IfcRelAssignsToActor
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcServiceLifeFactor
+	supply:index "0"^^xsd:integer .
+ifc:axis3_IfcCartesianTransformationOperator3D
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:selfIntersect_IfcBSplineCurve
+	supply:index "4"^^xsd:integer .
+ifc:sectionType_IfcSectionProperties
+	supply:index "0"^^xsd:integer .
+ifc:relatedApproval_IfcApprovalRelationship
+	supply:index "0"^^xsd:integer .
+ifc:operationType_IfcWindowStyle
+	supply:index "1"^^xsd:integer .
+ifc:exponent_IfcDerivedUnitElement
+	supply:index "1"^^xsd:integer .
+ifc:earlyFinish_IfcScheduleTimeControl
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessByLengthX_IfcBoundaryEdgeCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:quality_IfcPhysicalComplexQuantity
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerFrozen_IfcPresentationLayerWithStyle
+	supply:index "1"^^xsd:integer .
+ifc:contextIdentifier_IfcRepresentationContext
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thePerson_IfcPersonAndOrganization
+	supply:index "0"^^xsd:integer .
+ifc:depth_IfcZShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:semiAxis1_IfcEllipse
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcConstraint
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:effectiveDepth_IfcReinforcementBarProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:coordinates_IfcTextureVertex
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:relatedStructuralConnection_IfcRelConnectsStructuralMember
+	supply:index "1"^^xsd:integer .
+ifc:orientation_IfcLightSourceDirectional
+	supply:index "0"^^xsd:integer .
+ifc:items_IfcRepresentation
+	supply:index "3"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:scheduleFinish_IfcScheduleTimeControl
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transomThickness_IfcDoorLiningProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:tag_IfcElement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:controlPointsList_IfcBSplineCurve
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:referencingValues_IfcReferencesValueDocument
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:name_IfcOrganizationRelationship
+	supply:index "0"^^xsd:integer .
+ifc:criterion_IfcConditionCriterion
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcShapeAspect
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:crossSectionArea_IfcReinforcingBar
+	supply:index "1"^^xsd:integer .
+ifc:porosity_IfcGeneralMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:productDefinitional_IfcShapeAspect
+	supply:index "3"^^xsd:integer .
+ifc:longName_IfcSpatialStructureElement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:massExponent_IfcDimensionalExponents
+	supply:index "1"^^xsd:integer .
+ifc:iD_IfcProjectOrder
+	supply:index "0"^^xsd:integer .
+ifc:ultimateStrain_IfcMechanicalSteelMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:symbol_IfcFillAreaStyleTileSymbolWithStyle
+	supply:index "0"^^xsd:integer .
+ifc:centreOfGravityInX_IfcStructuralProfileProperties
+	supply:index "14"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lightColour_IfcLightSource
+	supply:index "1"^^xsd:integer .
+ifc:extrudedDirection_IfcSurfaceOfLinearExtrusion
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcBoilerType
+	supply:index "0"^^xsd:integer .
+ifc:discrimination_IfcPhysicalComplexQuantity
+	supply:index "1"^^xsd:integer .
+ifc:longitudinalBarNominalDiameter_IfcReinforcingMesh
+	supply:index "2"^^xsd:integer .
+ifc:libraryReference_IfcLibraryInformation
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:torsionalSectionModulus_IfcStructuralProfileProperties
+	supply:index "13"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingSystem_IfcRelServicesBuildings
+	supply:index "0"^^xsd:integer .
+ifc:dynamicViscosity_IfcMechanicalMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:yDim_IfcBoundingBox
+	supply:index "2"^^xsd:integer .
+ifc:shearDeformationAreaZ_IfcStructuralProfileProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:faceSurface_IfcFaceSurface
+	supply:index "0"^^xsd:integer .
+ifc:masterRepresentation_IfcTrimmedCurve
+	supply:index "4"^^xsd:integer .
+ifc:constructionType_IfcPile
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dir_IfcLine
+	supply:index "1"^^xsd:integer .
+ifc:relatingProcess_IfcRelAssignsToProcess
+	supply:index "0"^^xsd:integer .
+ifc:textureMaps_IfcTextureMap
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:applicableDate_IfcAppliedValue
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:subsequentAppliedLoads_IfcStructuralLinearActionVarying
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:name_IfcPropertyDependencyRelationship
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:polygonalBoundary_IfcPolygonalBoundedHalfSpace
+	supply:index "1"^^xsd:integer .
+ifc:visibleSegmentLength_IfcCurveStyleFontPattern
+	supply:index "0"^^xsd:integer .
+ifc:thickness_IfcRibPlateProfileProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transomOffset_IfcDoorLiningProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedObjects_IfcRelAssociates
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:thresholdThickness_IfcDoorLiningProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingProduct_IfcRelAssignsToProduct
+	supply:index "0"^^xsd:integer .
+ifc:lateStart_IfcScheduleTimeControl
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:headDepth2_IfcCraneRailFShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:name_IfcDraughtingCalloutRelationship
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInY_IfcTShapeProfileDef
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:assemblyPlace_IfcElementAssembly
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:versionDate_IfcLibraryInformation
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:applicationIdentifier_IfcApplication
+	supply:index "3"^^xsd:integer .
+ifc:loopVertex_IfcVertexLoop
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcAppliedValueRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcStructuralAnalysisModel
+	supply:index "0"^^xsd:integer .
+ifc:propertySource_IfcFluidFlowProperties
+	supply:index "0"^^xsd:integer .
+ifc:featureLength_IfcEdgeFeature
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcCircleProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:daylightSavingOffset_IfcLocalTime
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:originalValue_IfcInventory
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:baseSurface_IfcHalfSpaceSolid
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcMemberType
+	supply:index "0"^^xsd:integer .
+ifc:publisher_IfcLibraryInformation
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:wallThickness_IfcCircleHollowProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:u2_IfcRectangularTrimmedSurface
+	supply:index "3"^^xsd:integer .
+ifc:depth_IfcTShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:phase_IfcProject
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:specificHeatCapacity_IfcThermalMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transverseBarNominalDiameter_IfcReinforcingMesh
+	supply:index "3"^^xsd:integer .
+ifc:destabilizingLoad_IfcStructuralAction
+	supply:index "0"^^xsd:integer .
+ifc:solarTransmittance_IfcOpticalMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:panelPosition_IfcDoorPanelProperties
+	supply:index "3"^^xsd:integer .
+ifc:warpingConstant_IfcStructuralProfileProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcCurveStyleFontAndScaling
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dataValue_IfcMetric
+	supply:index "2"^^xsd:integer .
+ifc:resourceIdentifier_IfcConstructionResource
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:operationType_IfcTransportElement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingConstraint_IfcPropertyConstraintRelationship
+	supply:index "0"^^xsd:integer .
+ifc:thermodynamicTemperatureExponent_IfcDimensionalExponents
+	supply:index "4"^^xsd:integer .
+ifc:relatedPort_IfcRelConnectsPorts
+	supply:index "1"^^xsd:integer .
+ifc:constructionType_IfcWindowStyle
+	supply:index "0"^^xsd:integer .
+ifc:minimumPlateThickness_IfcGeneralProfileProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInY_IfcAsymmetricIShapeProfileDef
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:middleNames_IfcPerson
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:curveColour_IfcCurveStyle
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sizeable_IfcDoorStyle
+	supply:index "3"^^xsd:integer .
+ifc:owningUser_IfcOwnerHistory
+	supply:index "0"^^xsd:integer .
+ifc:edgeGeometry_IfcEdgeCurve
+	supply:index "0"^^xsd:integer .
+ifc:forceY_IfcStructuralLoadSingleForce
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcApproval
+	supply:index "5"^^xsd:integer .
+ifc:pHLevel_IfcWaterProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:startParam_IfcSweptDiskSolid
+	supply:index "3"^^xsd:integer .
+ifc:forceX_IfcStructuralLoadSingleForce
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingConstraint_IfcConstraintRelationship
+	supply:index "2"^^xsd:integer .
+ifc:description_IfcPropertyDependencyRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:headWidth_IfcCraneRailAShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:duration_IfcWorkControl
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:v1_IfcRectangularTrimmedSurface
+	supply:index "2"^^xsd:integer .
+ifc:yieldStress_IfcMechanicalSteelMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:magnitude_IfcVector
+	supply:index "1"^^xsd:integer .
+ifc:corner_IfcBoundingBox
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcCostSchedule
+	supply:index "7"^^xsd:integer .
+ifc:exchangeRate_IfcCurrencyRelationship
+	supply:index "2"^^xsd:integer .
+ifc:connectionType_IfcRelConnectsWithRealizingElements
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dataOrigin_IfcTimeSeries
+	supply:index "5"^^xsd:integer .
+ifc:thresholdDepth_IfcDoorLiningProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:capacityByWeight_IfcTransportElement
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:conditionCoordinateSystem_IfcRelConnectsStructuralMember
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:offsetDistances_IfcVirtualGridIntersection
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:predefinedType_IfcCooledBeamType
+	supply:index "0"^^xsd:integer .
+ifc:monthComponent_IfcCalendarDate
+	supply:index "1"^^xsd:integer .
+ifc:textureCoordinates_IfcAnnotationSurface
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transverseBarSpacing_IfcReinforcingMesh
+	supply:index "7"^^xsd:integer .
+ifc:pointParameterV_IfcPointOnSurface
+	supply:index "2"^^xsd:integer .
+ifc:name_IfcStructuralConnectionCondition
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcApprovalRelationship
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:isAttenuating_IfcSoundProperties
+	supply:index "0"^^xsd:integer .
+ifc:hardness_IfcWaterProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lightEmissionSource_IfcLightSourceGoniometric
+	supply:index "4"^^xsd:integer .
+ifc:name_IfcPropertyConstraintRelationship
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:textFontStyle_IfcTextStyle
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcElectricApplianceType
+	supply:index "0"^^xsd:integer .
+ifc:referencedTimeSeries_IfcTimeSeriesReferenceRelationship
+	supply:index "0"^^xsd:integer .
+ifc:luminousFlux_IfcLightSourceGoniometric
+	supply:index "3"^^xsd:integer .
+ifc:ribWidth_IfcRibPlateProfileProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:landTitleNumber_IfcSite
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInY_IfcStructuralProfileProperties
+	supply:index "15"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcCoilType
+	supply:index "0"^^xsd:integer .
+ifc:styles_IfcStyledItem
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:basisSurface_IfcCurveBoundedPlane
+	supply:index "0"^^xsd:integer .
+ifc:placement_IfcTextLiteral
+	supply:index "1"^^xsd:integer .
+ifc:startFloat_IfcScheduleTimeControl
+	supply:index "15"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:degree_IfcBSplineCurve
+	supply:index "0"^^xsd:integer .
+ifc:shearCentreZ_IfcStructuralProfileProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lineHeight_IfcTextStyleTextModel
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcTransportElementType
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcLightSource
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingMonetaryUnit_IfcCurrencyRelationship
+	supply:index "0"^^xsd:integer .
+ifc:solarReflectanceBack_IfcOpticalMaterialProperties
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:concentrationExponent_IfcLightSourceSpot
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:surfaceColour_IfcSurfaceStyleShading
+	supply:index "0"^^xsd:integer .
+ifc:semiAxis2_IfcEllipseProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:deltaT_Constant_IfcStructuralLoadTemperature
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sense_IfcCoordinatedUniversalTimeOffset
+	supply:index "2"^^xsd:integer .
+ifc:tag_IfcTypeProduct
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:annotatedCurve_IfcTerminatorSymbol
+	supply:index "0"^^xsd:integer .
+ifc:extrudedDirection_IfcExtrudedAreaSolid
+	supply:index "0"^^xsd:integer .
+ifc:connectionGeometry_IfcRelSpaceBoundary
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcSlab
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:temperatureSingleValue_IfcFluidFlowProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:placementRelTo_IfcLocalPlacement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingStructuralMember_IfcRelConnectsStructuralMember
+	supply:index "0"^^xsd:integer .
+ifc:records_IfcProjectOrderRecord
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:usageName_IfcPropertyReferenceValue
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerBlocked_IfcPresentationLayerWithStyle
+	supply:index "2"^^xsd:integer .
+ifc:source_IfcClassification
+	supply:index "0"^^xsd:integer .
+ifc:contextType_IfcRepresentationContext
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:shearCentreY_IfcStructuralProfileProperties
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:actualFinish_IfcScheduleTimeControl
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcCircle
+	supply:index "0"^^xsd:integer .
+ifc:identifier_IfcWorkControl
+	supply:index "0"^^xsd:integer .
+ifc:rotationalStiffnessX_IfcBoundaryNodeCondition
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:height_IfcPixelTexture
+	supply:index "1"^^xsd:integer .
+ifc:userDefinedPurpose_IfcAddress
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:referencedSource_IfcClassificationReference
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:profileName_IfcProfileDef
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingResource_IfcRelAssignsToResource
+	supply:index "0"^^xsd:integer .
+ifc:innerBoundaries_IfcCurveBoundedPlane
+	supply:index "2"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:anchorageSlip_IfcTendon
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:parameterTakesPrecedence_IfcWindowStyle
+	supply:index "2"^^xsd:integer .
+ifc:upperBoundValue_IfcPropertyBoundedValue
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:directrix_IfcSurfaceCurveSweptAreaSolid
+	supply:index "0"^^xsd:integer .
+ifc:flangeSlope_IfcUShapeProfileDef
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedMonetaryUnit_IfcCurrencyRelationship
+	supply:index "1"^^xsd:integer .
+ifc:letterSpacing_IfcTextStyleTextModel
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:boxWidth_IfcTextStyleWithBoxCharacteristics
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:surfaceOnRelatingElement_IfcConnectionSurfaceGeometry
+	supply:index "0"^^xsd:integer .
+ifc:assignedItems_IfcPresentationLayerAssignment
+	supply:index "2"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:description_IfcAppliedValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcOutletType
+	supply:index "0"^^xsd:integer .
+ifc:projectedOrTrue_IfcStructuralLinearAction
+	supply:index "0"^^xsd:integer .
+ifc:crossSectionReinforcementDefinitions_IfcSectionReinforcementProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:edgeRadius_IfcUShapeProfileDef
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:totalCrossSectionArea_IfcReinforcementBarProperties
+	supply:index "0"^^xsd:integer .
+ifc:freezingPoint_IfcThermalMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:scheduleDuration_IfcScheduleTimeControl
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeEdgeRadius_IfcTShapeProfileDef
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:profiles_IfcCompositeProfileDef
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:velocityTimeSeries_IfcFluidFlowProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:position_IfcCsgPrimitive3D
+	supply:index "0"^^xsd:integer .
+ifc:green_IfcColourRgb
+	supply:index "1"^^xsd:integer .
+ifc:operationType_IfcDoorStyle
+	supply:index "0"^^xsd:integer .
+ifc:definedUnit_IfcPropertyTableValue
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:plasticStrain_IfcMechanicalSteelMaterialProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:creatingActor_IfcConstraint
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcWallType
+	supply:index "0"^^xsd:integer .
+ifc:punchList_IfcMove
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:height_IfcRightCircularCone
+	supply:index "0"^^xsd:integer .
+ifc:transmissionColour_IfcSurfaceStyleRendering
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:intendedUse_IfcDocumentInformation
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unitBasis_IfcAppliedValue
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcRampFlightType
+	supply:index "0"^^xsd:integer .
+ifc:relatingControl_IfcRelAssignsToControl
+	supply:index "0"^^xsd:integer .
+ifc:curveFont_IfcCurveStyle
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:purpose_IfcDocumentInformation
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:colour_IfcTextStyleForDefinedFont
+	supply:index "0"^^xsd:integer .
+ifc:orientation_IfcFaceBound
+	supply:index "1"^^xsd:integer .
+ifc:relatingItem_IfcClassificationItemRelationship
+	supply:index "0"^^xsd:integer .
+ifc:placementRefDirection_IfcGridPlacement
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:webThickness_IfcCraneRailFShapeProfileDef
+	supply:index "5"^^xsd:integer .
+ifc:predefinedType_IfcDuctFittingType
+	supply:index "0"^^xsd:integer .
+ifc:visibleTransmittance_IfcOpticalMaterialProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingDocument_IfcDocumentInformationRelationship
+	supply:index "0"^^xsd:integer .
+ifc:enumerationValues_IfcPropertyEnumeratedValue
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:name_IfcConversionBasedUnit
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcMotorConnectionType
+	supply:index "0"^^xsd:integer .
+ifc:userDefinedThermalLoadSource_IfcSpaceThermalLoadProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:height_IfcChamferEdgeFeature
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:referenceSurface_IfcSurfaceCurveSweptAreaSolid
+	supply:index "3"^^xsd:integer .
+ifc:resultValues_IfcObjective
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingBuildingElement_IfcRelCoversBldgElements
+	supply:index "0"^^xsd:integer .
+ifc:depth_IfcSurfaceOfLinearExtrusion
+	supply:index "1"^^xsd:integer .
+ifc:flangeThickness_IfcIShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:relatingOrganization_IfcOrganizationRelationship
+	supply:index "2"^^xsd:integer .
+ifc:baseWidth2_IfcCraneRailAShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:refDirection_IfcAxis2Placement3D
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:maximumSectionModulusZ_IfcStructuralProfileProperties
+	supply:index "11"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:country_IfcPostalAddress
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:warpingStiffness_IfcBoundaryNodeConditionWarping
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:spreadAngle_IfcLightSourceSpot
+	supply:index "2"^^xsd:integer .
+ifc:usageName_IfcComplexProperty
+	supply:index "0"^^xsd:integer .
+ifc:liningThickness_IfcDoorLiningProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:applicableDates_IfcTimeSeriesSchedule
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:editionDate_IfcClassification
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:units_IfcUnitAssignment
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:operator_IfcDerivedProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:approvalDateTime_IfcApproval
+	supply:index "1"^^xsd:integer .
+ifc:maximumSectionModulusY_IfcStructuralProfileProperties
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:siteAddress_IfcSite
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:description_IfcExtendedMaterialProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:suffixTitles_IfcPerson
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:description_IfcReferencesValueDocument
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transomThickness_IfcWindowLiningProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:isLinear_IfcStructuralResultGroup
+	supply:index "2"^^xsd:integer .
+ifc:totalReplacementCost_IfcAsset
+	supply:index "3"^^xsd:integer .
+ifc:frequency_IfcSoundValue
+	supply:index "1"^^xsd:integer .
+ifc:definedValues_IfcPropertyTableValue
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:role_IfcApprovalActorRelationship
+	supply:index "2"^^xsd:integer .
+ifc:numberOfTreads_IfcStairFlight
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalLoadType_IfcSpaceThermalLoadProperties
+	supply:index "9"^^xsd:integer .
+ifc:relatedObjects_IfcRelDecomposes
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:fontVariant_IfcTextStyleFontModel
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:direction_IfcRibPlateProfileProperties
+	supply:index "4"^^xsd:integer .
+ifc:relatedElements_IfcRelContainedInSpatialStructure
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:shapeType_IfcRamp
+	supply:index "0"^^xsd:integer .
+ifc:requestID_IfcActionRequest
+	supply:index "0"^^xsd:integer .
+ifc:relativePlacement_IfcLocalPlacement
+	supply:index "1"^^xsd:integer .
+ifc:version_IfcLibraryInformation
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:panelOperation_IfcDoorPanelProperties
+	supply:index "1"^^xsd:integer .
+ifc:baseQuantity_IfcConstructionResource
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lateFinish_IfcScheduleTimeControl
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcElectricTimeControlType
+	supply:index "0"^^xsd:integer .
+ifc:boxHeight_IfcTextStyleWithBoxCharacteristics
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:poissonRatio_IfcMechanicalMaterialProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:diffuseTransmissionColour_IfcSurfaceStyleLighting
+	supply:index "0"^^xsd:integer .
+ifc:baseDepth3_IfcCraneRailAShapeProfileDef
+	supply:index "10"^^xsd:integer .
+ifc:wetBulbTemperatureTimeSeries_IfcFluidFlowProperties
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:specularHighlight_IfcSurfaceStyleRendering
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:velocitySingleValue_IfcFluidFlowProperties
+	supply:index "13"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:overallHeight_IfcWindow
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:bottomRadius_IfcRightCircularCone
+	supply:index "1"^^xsd:integer .
+ifc:resourceGroup_IfcConstructionResource
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lifeCyclePhase_IfcPerformanceHistory
+	supply:index "0"^^xsd:integer .
+ifc:curveForm_IfcBSplineCurve
+	supply:index "2"^^xsd:integer .
+ifc:documentId_IfcDocumentInformation
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcHeatExchangerType
+	supply:index "0"^^xsd:integer .
+ifc:relatingSpaceProgram_IfcRelInteractionRequirements
+	supply:index "4"^^xsd:integer .
+ifc:rotationalDisplacementRZ_IfcStructuralLoadSingleDisplacement
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:materials_IfcMaterialList
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:workControlType_IfcWorkControl
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcLightSourcePositional
+	supply:index "1"^^xsd:integer .
+ifc:resultForLoadGroup_IfcStructuralResultGroup
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:definitionType_IfcReinforcementDefinitionProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:enumerationValues_IfcPropertyEnumeration
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:momentOfInertiaY_IfcStructuralProfileProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:soundLevelTimeSeries_IfcSoundValue
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:radius_IfcCraneRailFShapeProfileDef
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:hasProperties_IfcComplexProperty
+	supply:index "1"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:deltaT_Z_IfcStructuralLoadTemperature
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:preparedBy_IfcCostSchedule
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:layerThickness_IfcMaterialLayer
+	supply:index "1"^^xsd:integer .
+ifc:scale2_IfcCartesianTransformationOperator2DnonUniform
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:distanceAttenuation_IfcLightSourcePositional
+	supply:index "3"^^xsd:integer .
+ifc:scale_IfcCartesianTransformationOperator
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:webThickness_IfcIShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:name_IfcTimeSeries
+	supply:index "0"^^xsd:integer .
+ifc:isHeading_IfcTableRow
+	supply:index "1"^^xsd:integer .
+ifc:realizingElement_IfcRelConnectsPorts
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:givenName_IfcPerson
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:mode_IfcTextureCoordinateGenerator
+	supply:index "0"^^xsd:integer .
+ifc:timeExponent_IfcDimensionalExponents
+	supply:index "2"^^xsd:integer .
+ifc:targetUsers_IfcCostSchedule
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:name_IfcDocumentInformation
+	supply:index "1"^^xsd:integer .
+ifc:spineCurve_IfcSectionedSpine
+	supply:index "0"^^xsd:integer .
+ifc:mostUsedValue_IfcServiceLifeFactor
+	supply:index "2"^^xsd:integer .
+ifc:predefinedType_IfcPile
+	supply:index "0"^^xsd:integer .
+ifc:region_IfcPostalAddress
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:itemOf_IfcClassificationItem
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessByLengthZ_IfcBoundaryEdgeCondition
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:overallHeight_IfcCraneRailAShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:linearMomentY_IfcStructuralLoadLinearForce
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:depth_IfcCShapeProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:item_IfcAnnotationSurface
+	supply:index "0"^^xsd:integer .
+ifc:relatingConstraint_IfcRelAssociatesConstraint
+	supply:index "1"^^xsd:integer .
+ifc:notationFacets_IfcClassificationNotation
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:reinforcementRole_IfcSectionReinforcementProperties
+	supply:index "3"^^xsd:integer .
+ifc:linearStiffnessY_IfcBoundaryNodeCondition
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:inputPhase_IfcElectricalBaseProperties
+	supply:index "7"^^xsd:integer .
+ifc:quadricAttenuation_IfcLightSourcePositional
+	supply:index "4"^^xsd:integer .
+ifc:energySequence_IfcEnergyProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:profileSectionLocation_IfcRelAssociatesProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcElectricMotorType
+	supply:index "0"^^xsd:integer .
+ifc:isothermalMoistureCapacity_IfcHygroscopicMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:momentOfInertiaZ_IfcStructuralProfileProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:topXOffset_IfcTrapeziumProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:overridingProperties_IfcRelOverridesProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:headWidth_IfcCraneRailFShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:transverseBarCrossSectionArea_IfcReinforcingMesh
+	supply:index "5"^^xsd:integer .
+ifc:startTime_IfcWorkControl
+	supply:index "6"^^xsd:integer .
+ifc:iD_IfcCostSchedule
+	supply:index "6"^^xsd:integer .
+ifc:rotationalDisplacementRX_IfcStructuralLoadSingleDisplacement
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:capacityByNumber_IfcTransportElement
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcProperty
+	supply:index "0"^^xsd:integer .
+ifc:relatedConstraints_IfcConstraintRelationship
+	supply:index "3"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:predefinedType_IfcCurtainWallType
+	supply:index "0"^^xsd:integer .
+ifc:approvedProperties_IfcApprovalPropertyRelationship
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:representationContexts_IfcProject
+	supply:index "2"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:applicationFullName_IfcApplication
+	supply:index "2"^^xsd:integer .
+ifc:listValues_IfcIrregularTimeSeriesValue
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:momentY_IfcStructuralLoadSingleForce
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:crossSectionArea_IfcTendon
+	supply:index "2"^^xsd:integer .
+ifc:valueComponent_IfcMeasureWithUnit
+	supply:index "0"^^xsd:integer .
+ifc:intent_IfcRelAssociatesConstraint
+	supply:index "0"^^xsd:integer .
+ifc:predefinedType_IfcDuctSilencerType
+	supply:index "0"^^xsd:integer .
+ifc:yDim_IfcTrapeziumProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:representedMaterial_IfcMaterialDefinitionRepresentation
+	supply:index "0"^^xsd:integer .
+ifc:description_IfcProductRepresentation
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:partOfProductDefinitionShape_IfcShapeAspect
+	supply:index "4"^^xsd:integer .
+ifc:frictionCoefficient_IfcTendon
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:curveOnRelatingElement_IfcConnectionCurveGeometry
+	supply:index "0"^^xsd:integer .
+ifc:operationType_IfcWindowPanelProperties
+	supply:index "0"^^xsd:integer .
+ifc:propertyReference_IfcPropertyReferenceValue
+	supply:index "1"^^xsd:integer .
+ifc:internalLocation_IfcPostalAddress
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcTendon
+	supply:index "0"^^xsd:integer .
+ifc:lowerValue_IfcServiceLifeFactor
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:definingValues_IfcPropertyTableValue
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:refElevation_IfcSite
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingType_IfcRelDefinesByType
+	supply:index "0"^^xsd:integer .
+ifc:submittedBy_IfcCostSchedule
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcLightFixtureType
+	supply:index "0"^^xsd:integer .
+ifc:mullionThickness_IfcWindowLiningProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcChillerType
+	supply:index "0"^^xsd:integer .
+ifc:radius_IfcSphere
+	supply:index "0"^^xsd:integer .
+ifc:temperatureTimeSeries_IfcFluidFlowProperties
+	supply:index "10"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcTankType
+	supply:index "0"^^xsd:integer .
+ifc:refDirection_IfcOffsetCurve3D
+	supply:index "3"^^xsd:integer .
+ifc:hasPropertySets_IfcTypeObject
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:predefinedType_IfcFlowMeterType
+	supply:index "0"^^xsd:integer .
+ifc:lastRevisionTime_IfcDocumentInformation
+	supply:index "11"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:elevation_IfcBuildingStorey
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedPriorities_IfcRelConnectsPathElements
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:constructionType_IfcDoorStyle
+	supply:index "1"^^xsd:integer .
+ifc:tilingScale_IfcFillAreaStyleTiles
+	supply:index "2"^^xsd:integer .
+ifc:curveWidth_IfcCurveStyle
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dependingProperty_IfcPropertyDependencyRelationship
+	supply:index "0"^^xsd:integer .
+ifc:enclosure_IfcBoxedHalfSpace
+	supply:index "0"^^xsd:integer .
+ifc:owner_IfcAsset
+	supply:index "4"^^xsd:integer .
+ifc:hatchLineAppearance_IfcFillAreaStyleHatching
+	supply:index "0"^^xsd:integer .
+ifc:treadLength_IfcStairFlight
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:position_IfcElementarySurface
+	supply:index "0"^^xsd:integer .
+ifc:relatedBuildingElement_IfcRelFillsElement
+	supply:index "1"^^xsd:integer .
+ifc:outer_IfcManifoldSolidBrep
+	supply:index "0"^^xsd:integer .
+ifc:parentContext_IfcGeometricRepresentationSubContext
+	supply:index "0"^^xsd:integer .
+ifc:relatingApproval_IfcApprovalRelationship
+	supply:index "1"^^xsd:integer .
+ifc:torsionalConstantX_IfcStructuralProfileProperties
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:materialClassifications_IfcMaterialClassificationRelationship
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:rotationalDisplacementRY_IfcStructuralLoadSingleDisplacement
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:vAxes_IfcGrid
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:relatingStructure_IfcRelContainedInSpatialStructure
+	supply:index "1"^^xsd:integer .
+ifc:planarForceZ_IfcStructuralLoadPlanarForce
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:outerBoundary_IfcAnnotationFillArea
+	supply:index "0"^^xsd:integer .
+ifc:topXDim_IfcTrapeziumProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:relatedSpace_IfcRelCoversSpaces
+	supply:index "0"^^xsd:integer .
+ifc:outerFilletRadius_IfcRectangleHollowProfileDef
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:id_IfcPerson
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcElectricGeneratorType
+	supply:index "0"^^xsd:integer .
+ifc:protectivePoreRatio_IfcMechanicalConcreteMaterialProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:sourceDescription_IfcSpaceThermalLoadProperties
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:endTime_IfcTimeSeries
+	supply:index "3"^^xsd:integer .
+ifc:points_IfcPolyline
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:secondTransomOffset_IfcWindowLiningProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:visibleReflectanceBack_IfcOpticalMaterialProperties
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcSanitaryTerminalType
+	supply:index "0"^^xsd:integer .
+ifc:priority_IfcTask
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:buildingAddress_IfcBuilding
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:hatchLineAngle_IfcFillAreaStyleHatching
+	supply:index "4"^^xsd:integer .
+ifc:description_IfcProperty
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:webEdgeRadius_IfcTShapeProfileDef
+	supply:index "6"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatingPort_IfcRelConnectsPortToElement
+	supply:index "0"^^xsd:integer .
+ifc:baseDepth1_IfcCraneRailAShapeProfileDef
+	supply:index "8"^^xsd:integer .
+ifc:name_IfcProductRepresentation
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeThickness_IfcZShapeProfileDef
+	supply:index "3"^^xsd:integer .
+ifc:taskId_IfcTask
+	supply:index "0"^^xsd:integer .
+ifc:name_IfcCurveStyleFont
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcVibrationIsolatorType
+	supply:index "0"^^xsd:integer .
+ifc:profileDefinition_IfcProfileProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:agreementFlag_IfcHalfSpaceSolid
+	supply:index "1"^^xsd:integer .
+ifc:appliedCondition_IfcRelConnectsStructuralMember
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:selfIntersect_IfcCompositeCurve
+	supply:index "1"^^xsd:integer .
+ifc:casingDepth_IfcDoorLiningProperties
+	supply:index "9"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearForceZ_IfcStructuralLoadLinearForce
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcShapeAspect
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcTubeBundleType
+	supply:index "0"^^xsd:integer .
+ifc:owningApplication_IfcOwnerHistory
+	supply:index "1"^^xsd:integer .
+ifc:innerFilletRadius_IfcRectangleHollowProfileDef
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:thermalIrEmissivityFront_IfcOpticalMaterialProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:assetID_IfcAsset
+	supply:index "0"^^xsd:integer .
+ifc:axis_IfcAxis1Placement
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unit_IfcPropertySingleValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInY_IfcCraneRailFShapeProfileDef
+	supply:index "8"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:secondOperand_IfcBooleanResult
+	supply:index "2"^^xsd:integer .
+ifc:roundingRadius_IfcRoundedRectangleProfileDef
+	supply:index "0"^^xsd:integer .
+ifc:webThickness_IfcZShapeProfileDef
+	supply:index "2"^^xsd:integer .
+ifc:pixel_IfcPixelTexture
+	supply:index "3"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:location_IfcExternalReference
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:barSurface_IfcReinforcingBar
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:relatedBuildingElement_IfcRelSpaceBoundary
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:flangeWidth_IfcZShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:label_IfcCompositeProfileDef
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:refDirection_IfcAxis2Placement2D
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:patternStart_IfcFillAreaStyleHatching
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:width_IfcCShapeProfileDef
+	supply:index "1"^^xsd:integer .
+ifc:intensity_IfcLightSource
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:selfIntersect_IfcOffsetCurve3D
+	supply:index "2"^^xsd:integer .
+ifc:refractionIndex_IfcSurfaceStyleRefraction
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:creationTime_IfcDocumentInformation
+	supply:index "10"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:parameter_IfcTextureCoordinateGenerator
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:predefinedType_IfcControllerType
+	supply:index "0"^^xsd:integer .
+ifc:polygon_IfcPolyLoop
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:purpose_IfcWorkControl
+	supply:index "3"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:linearStiffnessByAreaY_IfcBoundaryFaceCondition
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:distributionData_IfcLightIntensityDistribution
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:id_IfcOrganization
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:ambientIntensity_IfcLightSource
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:soundScale_IfcSoundProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:bound_IfcFaceBound
+	supply:index "0"^^xsd:integer .
+ifc:refLongitude_IfcSite
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:unit_IfcPhysicalSimpleQuantity
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:lowerBoundValue_IfcPropertyBoundedValue
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:shapeRepresentations_IfcShapeAspect
+	supply:index "0"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:name_IfcPresentationLayerAssignment
+	supply:index "0"^^xsd:integer .
+ifc:remainingTime_IfcScheduleTimeControl
+	supply:index "10"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:realizingElements_IfcRelConnectsWithRealizingElements
+	supply:index "0"^^xsd:integer ;
+	supply:isSet "true"^^xsd:boolean  .
+ifc:relatingConstraint_IfcConstraintAggregationRelationship
+	supply:index "2"^^xsd:integer .
+ifc:secondComponent_IfcLocalTime
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:dateComponent_IfcDateAndTime
+	supply:index "0"^^xsd:integer .
+ifc:rotationalStiffnessZ_IfcBoundaryNodeCondition
+	supply:index "5"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:solarReflectanceFront_IfcOpticalMaterialProperties
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:name_IfcStyledItem
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:userDefinedRole_IfcActorRole
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:theOrganization_IfcPersonAndOrganization
+	supply:index "1"^^xsd:integer .
+ifc:impuritiesContent_IfcWaterProperties
+	supply:index "4"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:mainPlaneAngle_IfcLightDistributionData
+	supply:index "0"^^xsd:integer .
+ifc:shearModulus_IfcMechanicalMaterialProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:reinforcementSectionDefinitions_IfcReinforcementDefinitionProperties
+	supply:index "1"^^xsd:integer ;
+	supply:isListOrArray "true"^^xsd:boolean .
+ifc:nominalDiameter_IfcMechanicalFastener
+	supply:index "0"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:centreOfGravityInX_IfcUShapeProfileDef
+	supply:index "7"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:basisSurface_IfcRectangularTrimmedSurface
+	supply:index "0"^^xsd:integer .
+ifc:pointOnRelatedElement_IfcConnectionPointGeometry
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:appliedValue_IfcAppliedValue
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:transversePosition_IfcSectionReinforcementProperties
+	supply:index "2"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:closedCurve_IfcBSplineCurve
+	supply:index "3"^^xsd:integer .
+ifc:proxyType_IfcProxy
+	supply:index "0"^^xsd:integer .
+ifc:orientation_IfcOrientedEdge
+	supply:index "1"^^xsd:integer .
+ifc:rasterCode_IfcBlobTexture
+	supply:index "1"^^xsd:integer .
+ifc:description_IfcAddress
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:earlyStart_IfcScheduleTimeControl
+	supply:index "1"^^xsd:integer ;
+	supply:isOptional "true"^^xsd:boolean .
+ifc:predefinedType_IfcPipeSegmentType
+	supply:index "0"^^xsd:integer .
+ifc:parentCurve_IfcCompositeCurveSegment
+	supply:index "2"^^xsd:integer .
